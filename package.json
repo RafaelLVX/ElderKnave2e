@@ -6,7 +6,9 @@
     "build": "gulp build",
     "compile": "gulp css",
     "watch": "gulp",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "stage": "node scripts/system-package.mjs",
+    "release": "node scripts/system-package.mjs --zip"
   },
   "browserslist": [
     "last 3 versions"
@@ -19,6 +21,10 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "sass": "^1.53.0"
+    "sass": "^1.53.0",
+    "archiver": "^6.0.1",
+    "fs-extra": "^11.2.0",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
   }
 }
