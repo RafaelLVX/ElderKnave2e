@@ -1,20 +1,21 @@
 {
-  "id": "knave2e",
-  "title": "Knave Second Edition (Unofficial)",
-  "description": "The (Unofficial) Knave Second Edition system for FoundryVTT, distributed with approval from Questing Beast, LLC.",
+  "id": "elderknave2e",
+  "title": "Elder Knave",
+  "description": "Elder Knave - A modified Knave Second Edition system for FoundryVTT.",
   "authors": [
     {
-      "name": "Lee Talman",
-      "discord": ".pizzawizard",
+      "name": "Rafael Lopes Vivian",
+      "discord": "rafaellvx",
+      "url": "https://rafael.lv",
       "flags": {}
     }
   ],
-  "url": "https://github.com/Lee-Talman/knave2e",
-  "license": "https://github.com/Lee-Talman/knave2e/blob/main/LICENSE.txt",
-  "readme": "https://github.com/Lee-Talman/knave2e/blob/main/README.md",
-  "bugs": "https://github.com/Lee-Talman/knave2e/issues",
-  "changelog": "https://github.com/Lee-Talman/knave2e/blob/main/CHANGELOG.md",
-  "version": "0.4.0",
+  "url": "https://github.com/RafaelLVX/ElderKnave2e",
+  "license": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/LICENSE.txt",
+  "readme": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/README.md",
+  "bugs": "https://github.com/RafaelLVX/ElderKnave2e/issues",
+  "changelog": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/CHANGELOG.md",
+  "version": "0.5.4",
   "compatibility": {
     "minimum": "10",
     "verified": "12",
@@ -34,9 +35,9 @@
       "flags": {}
     }
   ],
-  "manifest": "https://raw.githubusercontent.com/Lee-Talman/knave2e/main/system.json",
-  "download": "https://github.com/Lee-Talman/knave2e/releases/download/0.4.0/system.zip",
-  "background": "systems/knave2e/assets/anvil-bg.png",
+  "manifest": "https://raw.githubusercontent.com/RafaelLVX/ElderKnave2e/main/system.json",
+  "download": "https://github.com/RafaelLVX/ElderKnave2e/releases/latest/download/system.zip",
+  "background": "systems/elderknave2e/assets/anvil-bg.png",
   "grid": {
     "distance": 5,
     "units": "ft"
