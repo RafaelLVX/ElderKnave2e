@@ -1,7 +1,7 @@
 {
-  "name": "knave2e",
+  "name": "elderknave2e",
   "version": "1.0.0",
-  "description": "CSS compiler for the Knave2e system",
+  "description": "Compiler scripts for the Elder Knave system",
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
