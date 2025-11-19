@@ -83,6 +83,19 @@ export default class Knave2eCharacter extends Knave2eActorType {
                 min: 0,
             }),
         });
+        schema.mana = new fields.SchemaField({
+            value: new fields.NumberField({
+                ...requiredInteger,
+                initial: 0,
+                min: 0,
+            }),
+            max: new fields.NumberField({ ...requiredInteger, initial: 0, min: 0 }),
+            progress: new fields.NumberField({
+                ...requiredInteger,
+                initial: 100,
+                min: 0,
+            }),
+        });
         schema.xp = new fields.SchemaField({
             value: new fields.NumberField({ ...requiredInteger, initial: 0, min: 0 }),
             progress: new fields.NumberField({
@@ -103,6 +116,7 @@ export default class Knave2eCharacter extends Knave2eActorType {
         this._deriveBlessings();
         this._deriveCompanions();
         this._deriveHP();
+        this._deriveMana();
         this._deriveInitiative();
         this._deriveLevel();
         this._deriveSlots();
@@ -143,6 +157,17 @@ export default class Knave2eCharacter extends Knave2eActorType {
         this.hitPoints.progress = Math.floor((this.hitPoints.value / this.hitPoints.max) * 100);
 
         this.wounds.progress = Math.floor((this.wounds.value / this.wounds.max) * 100);
+    }
+
+    _deriveMana() {
+        // Set max mana to intelligence value
+        this.mana.max = this.abilities.intelligence.value;
+        
+        // Ensure mana value doesn't exceed max
+        this.mana.value = Math.min(this.mana.value, this.mana.max);
+        
+        // Update progress bar for mana
+        this.mana.progress = Math.floor((this.mana.value / this.mana.max) * 100);
     }
 
     _deriveLevel() {
@@ -284,7 +309,11 @@ export default class Knave2eCharacter extends Knave2eActorType {
 
     async getRestData() {
         const actorRestData = await super.getRestData();
-        const update = { ...actorRestData, 'system.spells.value': 0 };
+        const update = { 
+            ...actorRestData, 
+            'system.spells.value': 0,
+            'system.mana.value': this.mana.max
+        };
 
         const type = await Dialog.wait({
             title: `${game.i18n.localize('KNAVE2E.RestDialogTitle')}`,

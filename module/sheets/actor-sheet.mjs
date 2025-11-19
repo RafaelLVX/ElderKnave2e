@@ -4,7 +4,7 @@ export default class Knave2eActorSheet extends ActorSheet {
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
             classes: ['knave2e', 'sheet', 'actor'],
-            width: 640,
+            width: 860,
             height: 670,
             dragDrop: [
                 { dragSelector: '.item-list .item', dropSelector: null },
@@ -21,7 +21,10 @@ export default class Knave2eActorSheet extends ActorSheet {
     }
 
     get template() {
-        return `systems/knave2e/templates/actor/actor-${this.actor.type}-sheet.hbs`;
+        if (this.actor.type === 'character') {
+            return `systems/elderknave2e/templates/actor/actor-character-sheet.hbs`;
+        }
+        return `systems/elderknave2e/templates/actor/actor-${this.actor.type}-sheet.hbs`;
     }
 
     async getData() {

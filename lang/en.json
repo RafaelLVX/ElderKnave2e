@@ -5,6 +5,11 @@
   "ABILITIES.Intelligence": "INTELLIGENCE",
   "ABILITIES.Wisdom": "WISDOM",
   "ABILITIES.Charisma": "CHARISMA",
+  "ABILITIES.Alteration": "ALTERATION",
+  "ABILITIES.Conjuration": "CONJURATION",
+  "ABILITIES.Destruction": "DESTRUCTION",
+  "ABILITIES.Illusion": "ILLUSION",
+  "ABILITIES.Restoration": "RESTORATION",
 
   "ABILITIES.StrengthAbbr": "STR",
   "ABILITIES.DexterityAbbr": "DEX",
@@ -12,6 +17,11 @@
   "ABILITIES.IntelligenceAbbr": "INT",
   "ABILITIES.WisdomAbbr": "WIS",
   "ABILITIES.CharismaAbbr": "CHA",
+  "ABILITIES.AlterationAbbr": "ALTE",
+  "ABILITIES.ConjurationAbbr": "CONJ",
+  "ABILITIES.DestructionAbbr": "DEST",
+  "ABILITIES.IllusionAbbr": "ILLU",
+  "ABILITIES.RestorationAbbr": "REST",
 
   "ABILITIES.StrengthDescription": "Melee attacks, lifting,<br>climbing, breaking free",
   "ABILITIES.DexterityDescription": "Dodging, sneaking,<br>sleight of hand",
@@ -19,6 +29,11 @@
   "ABILITIES.IntelligenceDescription": "Lockpicking, alchemy,<br>spells per day",
   "ABILITIES.WisdomDescription": "Ranged attacks, foraging,<br>navigation, spell resistance",
   "ABILITIES.CharismaDescription": "Initiative, persuasion,<br>companions, blessings",
+  "ABILITIES.AlterationDescription": "Transmutation magic,<br>changing matter and energy",
+  "ABILITIES.ConjurationDescription": "Creation magic,<br>summoning and binding",
+  "ABILITIES.DestructionDescription": "Offensive magic,<br>damage and entropy",
+  "ABILITIES.IllusionDescription": "Deception magic,<br>illusions and mind tricks",
+  "ABILITIES.RestorationDescription": "Healing magic,<br>restoration and protection",
 
   "KNAVE2E.CreateItemDialogHeader": "Create New Item",
 
@@ -63,6 +78,8 @@
   "KNAVE2E.Spells": "Spells Cast",
   "KNAVE2E.Wounds": "Wounds",
   "KNAVE2E.WoundsMax": "Max Wnd",
+  "KNAVE2E.Mana": "Mana",
+  "KNAVE2E.ManaMax": "Max Mana",
   "KNAVE2E.XP": "XP",
 
   "KNAVE2E.Cost": "Cost",

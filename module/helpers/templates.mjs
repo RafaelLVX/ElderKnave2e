@@ -6,6 +6,6 @@
 export const preloadHandlebarsTemplates = async function () {
   return loadTemplates([
     // Actor partials.
-    "systems/knave2e/templates/actor/parts/actor-character-items.hbs",
+    "systems/elderknave2e/templates/actor/parts/actor-character-items.hbs",
   ]);
 };

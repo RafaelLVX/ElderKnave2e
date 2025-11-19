@@ -34,5 +34,35 @@ export const ABILITIES = Object.freeze({
         label: "ABILITIES.Charisma",
         abbreviation: "ABILITIES.CharismaAbbr",
         detail: "ABILITIES.CharismaDescription"
+    },
+    alteration: {
+      id: "alteration",
+      label: "ABILITIES.Alteration",
+      abbreviation: "ABILITIES.AlterationAbbr",
+      detail: "ABILITIES.AlterationDescription"
+    },
+    conjuration: {
+      id: "conjuration",
+      label: "ABILITIES.Conjuration",
+      abbreviation: "ABILITIES.ConjurationAbbr",
+      detail: "ABILITIES.ConjurationDescription"
+    },
+    destruction: {
+      id: "destruction",
+      label: "ABILITIES.Destruction",
+      abbreviation: "ABILITIES.DestructionAbbr",
+      detail: "ABILITIES.DestructionDescription"
+    },
+    illusion: {
+      id: "illusion",
+      label: "ABILITIES.Illusion",
+      abbreviation: "ABILITIES.IllusionAbbr",
+      detail: "ABILITIES.IllusionDescription"
+    },
+    restoration: {
+      id: "restoration",
+      label: "ABILITIES.Restoration",
+      abbreviation: "ABILITIES.RestorationAbbr",
+      detail: "ABILITIES.RestorationDescription"
     }
 });

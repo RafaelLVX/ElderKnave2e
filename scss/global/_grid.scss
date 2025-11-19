@@ -204,6 +204,17 @@
 
       .abilities {
         grid-area: 1 / 1 / 3 / 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+        .abilities-left {
+          grid-column: 1;
+        }
+
+        .abilities-right {
+          grid-column: 2;
+        }
 
         .ability {
           margin-left: 5px;
@@ -496,6 +507,10 @@
       &.wounds {
         background-color: #659db5;
       }
+
+      &.mana {
+        background-color: #c585d6;
+      }
     }
 
     .progress-input {
@@ -551,6 +566,10 @@
 
       &.wounds {
         background-color: #659db5;
+      }
+
+      &.mana {
+        background-color: #c585d6;
       }
     }
 

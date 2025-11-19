@@ -7,7 +7,7 @@
 
                 {{!-- Knave Logo --}}
                 <div class="logo">
-                    <img class="logo-img no-border" src="systems/knave2e/assets/knave-2e-logo.webp" />
+                    <img class="logo-img no-border" src="systems/elderknave2e/assets/knave-2e-logo.webp" />
                 </div>
 
                 {{!-- Character Header Info --}}
@@ -56,24 +56,46 @@
                 <div class="tab character" data-group="primary" data-tab="character">
                     {{!-- Abilities --}}
                     <div class="abilities">
-                        {{#each system.abilities as |ability key|}}
-                        <div class="flexrow no-wrap flex-between">
-                            <input class="resource-label flex1 flex-group-center circle character" type="text"
-                                name="system.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number" />
-                            <div class="ability flex3 flex-group-left">
-                                <div class="resource-label flexrow no-wrap rollable flex-start"
-                                    data-roll="d20+@abilities.{{key}}.value" data-label="{{ability.label}}"
-                                    style="justify-content:left;font-size:20px;">
-                                    {{localize
-                                    ability.label}}
-                                </div>
-                                <div class="flexrow no-wrap flex-start detail italic">
-                                    {{{localize
-                                    ability.detail}}}
+                        <div class="abilities-left">
+                            {{#each system.abilities as |ability key|}}
+                            {{#if (lt @index 6)}}
+                            <div class="flexrow no-wrap flex-between">
+                                <input class="resource-label flex1 flex-group-center circle character" type="text"
+                                    name="system.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number" />
+                                <div class="ability flex3 flex-group-left">
+                                    <div class="resource-label flexrow no-wrap rollable flex-start"
+                                        data-roll="d20+@abilities.{{key}}.value" data-label="{{ability.label}}"
+                                        style="justify-content:left;font-size:20px;">
+                                        {{localize ability.label}}
+                                    </div>
+                                    <div class="flexrow no-wrap flex-start detail italic">
+                                        {{{localize ability.detail}}}
+                                    </div>
                                 </div>
                             </div>
+                            {{/if}}
+                            {{/each}}
                         </div>
-                        {{/each}}
+                        <div class="abilities-right">
+                            {{#each system.abilities as |ability key|}}
+                            {{#if (gte @index 6)}}
+                            <div class="flexrow no-wrap flex-between">
+                                <input class="resource-label flex1 flex-group-center circle character" type="text"
+                                    name="system.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number" />
+                                <div class="ability flex3 flex-group-left">
+                                    <div class="resource-label flexrow no-wrap rollable flex-start"
+                                        data-roll="d20+@abilities.{{key}}.value" data-label="{{ability.label}}"
+                                        style="justify-content:left;font-size:20px;">
+                                        {{localize ability.label}}
+                                    </div>
+                                    <div class="flexrow no-wrap flex-start detail italic">
+                                        {{{localize ability.detail}}}
+                                    </div>
+                                </div>
+                            </div>
+                            {{/if}}
+                            {{/each}}
+                        </div>
                     </div>
 
                     {{! -- Armor -- !}}
@@ -101,7 +123,7 @@
                     {{!-- Health --}}
                     <div class="health flexcol no-wrap">
                         <div class="health-max">
-                            <div class="grid grid-2col" style="justify-items:center">
+                            <div class="grid grid-3col" style="justify-items:center">
                                 <div class="grid-span-1 flexcol no-wrap flex-group-center">
                                     <div class="resource-label">{{localize "KNAVE2E.HitPointsMax"}}</div>
                                     <input class="resource-label content transparent rounded character"
@@ -116,10 +138,14 @@
                                         name="system.wounds.max" value="{{system.wounds.max}}" data-dtype="Number" />
                                     {{/if}}
                                 </div>
+                                <div class="grid-span-1 flexcol no-wrap flex-group-center">
+                                    <div class="resource-label">{{localize "KNAVE2E.ManaMax"}}</div>
+                                    <div class="resource-label rounded character">{{system.mana.max}}</div>
+                                </div>
                             </div>
                         </div>
                         <div class="health-value">
-                            <div class="grid grid-2col" style="justify-items:center">
+                            <div class="grid grid-3col" style="justify-items:center">
                                 <div class="progress-container grid-span-1 vertical">
                                     <div class="progress-bar">
                                         <div class="progress-fill hitPoints"
@@ -135,6 +161,14 @@
                                         </div>
                                         <input class="progress-input resource-label content" name="system.wounds.value"
                                             value="{{system.wounds.value}}" />
+                                    </div>
+                                </div>
+                                <div class="progress-container grid-span-1 vertical">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill mana" style="height:{{system.mana.progress}}%">
+                                        </div>
+                                        <input class="progress-input resource-label content" name="system.mana.value"
+                                            value="{{system.mana.value}}" />
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +215,7 @@
 
                 {{!-- Item Slots Tab --}}
                 <div class="tab items" data-group="primary" data-tab="items">
-                    {{> "systems/knave2e/templates/actor/parts/actor-character-items.hbs"}}
+                    {{> "systems/elderknave2e/templates/actor/parts/actor-character-items.hbs"}}
                 </div>
 
                 {{!-- Description Tab --}}
