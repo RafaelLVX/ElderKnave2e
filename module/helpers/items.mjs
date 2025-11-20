@@ -234,11 +234,53 @@ export async function onAttack(event) {
     event.preventDefault();
     const a = event.currentTarget;
 
+    // Try to get actor from multiple sources (similar to onDamageFromChat)
+    let actor = null;
+
+    // First try this.actor (for world actors)
+    if (this?.actor) {
+        actor = this.actor;
+    } else {
+        // If no this.actor, try to find actor from button data (for compendium sheets)
+        const button = a.closest('button') || a.closest('[data-actor-id]');
+        if (button?.dataset?.actorId) {
+            // First try to get from world actors
+            actor = game.actors.get(button.dataset.actorId);
+            
+            // If not found, search through tokens on the canvas
+            if (!actor && canvas.tokens) {
+                const token = canvas.tokens.placeables.find(t => t.actor?.id === button.dataset.actorId);
+                if (token) {
+                    actor = token.actor;
+                }
+            }
+            
+            // If still not found, search through compendium packs
+            if (!actor) {
+                for (const pack of game.packs) {
+                    if (pack.documentName === 'Actor') {
+                        const index = pack.index.get(button.dataset.actorId);
+                        if (index) {
+                            actor = await pack.getDocument(button.dataset.actorId);
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    if (!actor) {
+        console.error("onAttack: No actor found", { thisActor: this?.actor, event });
+        ui.notifications.warn("Could not find actor for this attack.");
+        return;
+    }
+
     const li = a.closest('li');
-    const item = li.dataset.itemId ? this.actor.items.get(li.dataset.itemId) : null;
+    const item = li.dataset.itemId ? actor.items.get(li.dataset.itemId) : null;
     const itemData = item.system;
     const hasDescription = itemData.description === '' ? false : true;
-    const systemData = this.actor.system;
+    const systemData = actor.system;
 
     // Return if the weapon is broken
     if (item.type === 'weapon' && itemData.broken === true && itemData.breakable && game.settings.get('knave2e', 'enforceBreaks')) {
@@ -246,7 +288,7 @@ export async function onAttack(event) {
         Dialog.prompt({
             title: `${game.i18n.localize('KNAVE2E.Item')} ${game.i18n.localize('KNAVE2E.Broken')}`,
             //TODO: localize this string
-            content: `All of ${this.actor.name}'s ${item.name}s are broken!`,
+            content: `All of ${actor.name}'s ${item.name}s are broken!`,
             label: 'OK',
             callback: (html) => {
                 return;
@@ -266,7 +308,7 @@ export async function onAttack(event) {
         return;
     }
 
-    const speaker = ChatMessage.getSpeaker({ actor: this.actor });
+    const speaker = ChatMessage.getSpeaker({ actor: actor });
     const rollMode = game.settings.get('core', 'rollMode');
     let flavor = `${game.i18n.localize('KNAVE2E.AttackRoll')} ${game.i18n.localize('KNAVE2E.With')} ${item.name}`;
 
@@ -280,10 +322,28 @@ export async function onAttack(event) {
     };
 
     // Pass item info for clickable Damage & Direct buttons in-chat. Will update item/buttons/flavor in-method
+    // Use pack+name for compendium actors since _id is null, fallback to _id for world actors
+    let actorReference;
+    let itemReference;
+    
+    if (actor._id) {
+        // World actor - use the ID
+        actorReference = actor._id;
+        itemReference = item._id;
+    } else if (actor.pack) {
+        // Compendium actor - use pack:name format for actor and item name for item
+        actorReference = `${actor.pack}:${actor.name}`;
+        itemReference = item.name; // Use name instead of ID since IDs regenerate
+    } else {
+        // Fallback to UUID if available
+        actorReference = actor.uuid || actor.name;
+        itemReference = item._id || item.name;
+    }
+    
     const rollData = {
         data: {
-            item: item._id,
-            actor: this.actor._id,
+            item: itemReference,
+            actor: actorReference,
             buttons: true,
             character: true,
             description: itemData.description,
@@ -434,8 +494,80 @@ export async function onDamageFromChat(event) {
     const a = event.currentTarget;
 
     const button = a.closest('button');
-    const actor = button.dataset.actorId ? game.actors.get(button.dataset.actorId) : null;
-    const item = button.dataset.itemId ? actor.items.get(button.dataset.itemId) : null;
+    
+    // Try to get actor from multiple sources
+    let actor = null;
+    if (button.dataset.actorId) {
+        // Check if it's a pack:name format (compendium reference)
+        if (button.dataset.actorId.includes(':')) {
+            const [packName, actorName] = button.dataset.actorId.split(':', 2);
+            const pack = game.packs.get(packName);
+            if (pack) {
+                // Find actor by name in the pack
+                const actorIndex = pack.index.find(entry => entry.name === actorName);
+                if (actorIndex) {
+                    actor = await pack.getDocument(actorIndex._id);
+                }
+            }
+            if (!actor) {
+                console.error('Failed to find compendium actor:', packName, actorName);
+            }
+        } else if (button.dataset.actorId.startsWith('Compendium.')) {
+            try {
+                actor = await fromUuid(button.dataset.actorId);
+            } catch (error) {
+                console.error('Failed to resolve actor UUID:', button.dataset.actorId, error);
+            }
+        } else {
+            // First try to get from world actors
+            actor = game.actors.get(button.dataset.actorId);
+            
+            // If not found, search through tokens on the canvas
+            if (!actor && canvas.tokens) {
+                const token = canvas.tokens.placeables.find(t => t.actor?.id === button.dataset.actorId);
+                if (token) {
+                    actor = token.actor;
+                }
+            }
+            
+            // If still not found, search through compendium packs
+            if (!actor) {
+                for (const pack of game.packs) {
+                    if (pack.documentName === 'Actor') {
+                        // Check if the pack has this actor (using index which is synchronous)
+                        const index = pack.index.get(button.dataset.actorId);
+                        if (index) {
+                            // Load the actual document
+                            actor = await pack.getDocument(button.dataset.actorId);
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // Get the item - use ID for world actors, name for compendium actors
+    let item = null;
+    if (button.dataset.itemId && actor) {
+        // First try by ID (works for world actors)
+        item = actor.items.get(button.dataset.itemId);
+        
+        // If not found and it's a compendium actor, try by name
+        if (!item && button.dataset.actorId?.includes(':')) {
+            item = actor.items.find(i => i.name === button.dataset.itemId);
+        }
+    }
+
+    if (!actor || !item) {
+        console.error("onDamageFromChat: Missing actor or item", { 
+            actorId: button.dataset.actorId, 
+            itemId: button.dataset.itemId, 
+            actor, 
+            item 
+        });
+        return;
+    }
 
     _rollDamage(a, actor, item);
 }
@@ -503,7 +635,7 @@ async function _rollDamage(a, actor, item) {
                         //TODO: localize this string
                         rollFlavor =
                             rollFlavor +
-                            `. ${game.i18n.localize('KNAVE2E.PowerAttack')} ${game.i18n.localize('KNAVE2E.Breaks')} one of ${this.actor.name}'s ${item.name
+                            `. ${game.i18n.localize('KNAVE2E.PowerAttack')} ${game.i18n.localize('KNAVE2E.Breaks')} one of ${actor.name}'s ${item.name
                             }s!`;
                     }
 
