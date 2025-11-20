@@ -86,11 +86,13 @@
 
                     {{else}}
                     {{#if (eq item.type "spellbook")}}
-                    <a class="item-name detail grid-span-6">{{#if item.system.dropped}}({{localize "KNAVE2E.Dropped"}})
-                        {{/if}}{{item.name}}</a>
-                    <div class="item-buttons grid-span-1 flexrow flex-group-center">
+                    <a class="item-name detail grid-span-5">{{#if item.system.dropped}}({{localize "KNAVE2E.Dropped"}})
+                        {{/if}}{{item.name}}{{#if item.categoryName}} ({{item.categoryName}}){{/if}}</a>
+                    <div class="item-buttons grid-span-2 flexrow flex-group-center">
                         <button class="item-button cast" data-action="cast" type="button">{{localize
                             "KNAVE2E.CastAbbr"}}</button>
+                        <button class="item-button cast" data-action="dualcast" type="button">{{localize
+                            "KNAVE2E.DualCastAbbr"}}</button>
                     </div>
 
                     {{else}}
@@ -114,10 +116,7 @@
                         <a class="item-toggle" data-action="break" title={{localize "KNAVE2E.BreakWeaponDetail" }}>
                             <i class="fas {{#if item.system.broken}}fa-heart-broken{{else}}fa-heart{{/if}}"></i></a>
                         {{/if}}
-                        {{#if (eq item.type "spellbook")}}
-                        <a class="item-toggle" data-action="cast" title={{localize "KNAVE2E.CastSpellbookDetail" }}>
-                            <i class="fas {{#if item.system.cast}}fa-book-open{{else}}fa-book{{/if}}"></i></a>
-                        {{/if}}
+
                         {{#if (eq item.type "lightSource")}}
                         <a class="item-toggle" data-action="light" title={{localize "KNAVE2E.ActivateLightSourceDetail"
                             }}>

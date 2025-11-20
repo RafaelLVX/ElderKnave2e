@@ -6,7 +6,7 @@ export default class Knave2eItemType extends foundry.abstract.TypeDataModel {
 
         schema.category = new fields.StringField({
             required: true,
-            blank: false,
+            blank: true,
             initial: this.DEFAULT_CATEGORY,
         });
         schema.description = new fields.StringField({ initial: '' });
@@ -50,12 +50,4 @@ export default class Knave2eItemType extends foundry.abstract.TypeDataModel {
     }
 
     static DEFAULT_CATEGORY = '';
-
-    //prepareDerivedData() {
-    //    if (this.dropped || this.quantity === 0 || this.held === 0) {
-    //        this.progress = 100;
-    //    } else {
-    //        this.progress = Math.floor(((this.quantity - this.held) / this.quantity) * 100);
-    //    }
-    //}
 }

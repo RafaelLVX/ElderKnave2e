@@ -54,6 +54,18 @@ export default class Knave2eActorSheet extends ActorSheet {
             this._prepareVehicleData(context);
         }
 
+        // Add category names to spellbook items for display
+        if (context.items) {
+            context.items.forEach(item => {
+                if (item.type === 'spellbook' && item.system.category) {
+                    const categoryKey = item.system.category;
+                    if (categoryKey && categoryKey !== '') {
+                        item.categoryName = game.i18n.localize(`ABILITIES.${categoryKey.charAt(0).toUpperCase() + categoryKey.slice(1)}`);
+                    }
+                }
+            });
+        }
+
         // Add roll data for TinyMCE editors.
         context.rollData = context.actor.getRollData();
 
@@ -76,6 +88,9 @@ export default class Knave2eActorSheet extends ActorSheet {
 
     _prepareCharacterData(context) {
         const systemData = context.system;
+
+        // Prepare spellbook categories for inventory display
+        context.spellbookCategories = this._labelOptions(CONFIG.SYSTEM.SPELLBOOK.CATEGORIES);
 
         // Handle Armor
         if (game.settings.get('knave2e', 'automaticArmor')) {
@@ -341,7 +356,7 @@ export default class Knave2eActorSheet extends ActorSheet {
         // Sheet Damage/Direct rolls (chat button rolls handled in './documents/chat-message.mjs')
         html.on('click', '.item-button.damage.sheet', onDamageFromSheet.bind(this));
 
-        // Cast Spell
+        // Cast Spell (handles both cast and dual cast)
         html.on('click', '.item-button.cast', onCast.bind(this));
 
         /* -------------------------------------------- */
@@ -408,12 +423,6 @@ export default class Knave2eActorSheet extends ActorSheet {
                     newBreakQuantity = item.system.quantity
                 }
                 return item.update({ 'system.brokenQuantity': newBreakQuantity, 'system.broken': !item.system.broken });
-            case 'cast':
-                let newCastQuantity = 0
-                if (item.system.cast === false) {
-                    newCastQuantity = item.system.quantity
-                }
-                return item.update({ 'system.castQuantity': newCastQuantity, 'system.cast': !item.system.cast });
             case 'equip':
                 return item.update({ 'system.equipped': !item.system.equipped });
             case 'blessing':

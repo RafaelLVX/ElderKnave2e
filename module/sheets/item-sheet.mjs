@@ -84,6 +84,9 @@ export default class Knave2eItemSheet extends ItemSheet {
     context.spellbookCategories = this._labelOptions(
       CONFIG.SYSTEM.SPELLBOOK.CATEGORIES
     );
+    context.spellbookTiers = this._labelOptions(
+      CONFIG.SYSTEM.SPELLBOOK.TIERS
+    );
 
     return context;
   }

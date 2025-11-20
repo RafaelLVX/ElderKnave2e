@@ -52,6 +52,141 @@ export async function damageDialog() {
     return powerAttack;
 }
 
+// Helper function to get mana cost from spellbook tier
+function getTierManaCost(tier) {
+    const tierCosts = {
+        'novice': 1,
+        'apprentice': 2,
+        'adept': 3,
+        'master': 4
+    };
+    return tierCosts[tier] || 1; // Default to 1 if tier not found
+}
+
+// Helper function to validate mana availability
+function validateManaAvailability(actor, item, isDualCast = false) {
+    const tier = item.system.tier || 'novice';
+    const baseCost = getTierManaCost(tier);
+    const requiredMana = isDualCast ? baseCost * 2 : baseCost;
+    const currentMana = actor.system.mana.value;
+    
+    if (currentMana < requiredMana) {
+        const contentKey = isDualCast ? 'KNAVE2E.InsufficientManaDualContent' : 'KNAVE2E.InsufficientManaContent';
+        Dialog.prompt({
+            title: game.i18n.localize('KNAVE2E.InsufficientManaTitle'),
+            content: game.i18n.format(contentKey, { 
+                actorName: actor.name, 
+                requiredMana, 
+                currentMana, 
+                itemName: item.name 
+            }),
+            label: 'OK',
+            callback: (html) => {
+                return;
+            },
+        });
+        return false;
+    }
+    return true;
+}
+
+// Helper function to consume mana
+function consumeMana(actor, item, isDualCast = false) {
+    const tier = item.system.tier || 'novice';
+    const baseCost = getTierManaCost(tier);
+    const manaCost = isDualCast ? baseCost * 2 : baseCost;
+    const currentMana = actor.system.mana.value;
+    
+    actor.update({
+        'system.mana.value': Math.max(0, currentMana - manaCost)
+    });
+}
+
+// Helper function to validate spellbook category
+function validateSpellbookCategory(item, category) {
+    const validCategories = ['alteration', 'conjuration', 'destruction', 'illusion', 'restoration'];
+    
+    if (!category || category === '' || !validCategories.includes(category)) {
+        Dialog.prompt({
+            title: game.i18n.localize('KNAVE2E.CannotCastSpellTitle'),
+            content: game.i18n.format('KNAVE2E.CannotCastSpellContent', { itemName: item.name }),
+            label: 'OK',
+            callback: (html) => {
+                return;
+            },
+        });
+        return false;
+    }
+    return true;
+}
+
+// Helper function to check if character is trained in ability
+function validateAbilityTraining(actor, abilityValue, abilityLabel) {
+    if (abilityValue === 0) {
+        Dialog.prompt({
+            title: game.i18n.format('KNAVE2E.UntrainedTitle', { abilityLabel }),
+            content: game.i18n.format('KNAVE2E.UntrainedContent', { actorName: actor.name, abilityLabel }),
+            label: 'OK',
+            callback: (html) => {
+                return;
+            },
+        });
+        return false;
+    }
+    return true;
+}
+
+// Helper function to perform ability check and show results
+async function performSpellCheck(actor, item, abilityValue, abilityLabel, isDualCast = false) {
+    const formula = `1d20 + ${abilityValue}`;
+    const roll = new Roll(formula);
+    await roll.evaluate();
+    
+    const speaker = ChatMessage.getSpeaker({ actor: actor });
+    const rollMode = game.settings.get('core', 'rollMode');
+    
+    const checkKey = isDualCast ? 'KNAVE2E.SpellCheckDualCast' : 'KNAVE2E.SpellCheckCast';
+    const checkText = game.i18n.format(checkKey, { abilityLabel, itemName: item.name });
+    const content = `<div><strong>${checkText}</strong></div><br><h3>${item.name}</h3>${item.system.description}`;
+    
+    await roll.toMessage({
+        speaker: speaker,
+        flavor: content,
+        rollMode: rollMode,
+    });
+}
+
+// Helper function to update spell tracking
+function updateSpellTracking(actor, item) {
+    const itemData = item.system;
+    const systemData = actor.system;
+    
+    if (game.settings.get('knave2e', 'automaticSpells')) {
+        // Cast spell and increment actor's used spells
+        if (game.settings.get('knave2e', 'enforceSpells')) {
+            item.update({
+                'system.castQuantity': itemData.castQuantity + 1,
+            });
+        }
+        actor.update({
+            'system.spells.value': systemData.spells.value + 1,
+        });
+    } else {
+        if (game.settings.get('knave2e', 'enforceSpells')) {
+            item.update({
+                'system.cast': true,
+            });
+            actor.update({
+                'system.spells.value': systemData.spells.value + 1,
+            });
+        } else {
+            actor.update({
+                'system.spells.value': systemData.spells.value + 1,
+            });
+        }
+    }
+}
+
 export async function onCast(event) {
     event.preventDefault();
     const a = event.currentTarget;
@@ -60,98 +195,39 @@ export async function onCast(event) {
     const item = li.dataset.itemId ? this.actor.items.get(li.dataset.itemId) : null;
     const itemData = item.system;
     const systemData = this.actor.system;
-
-    if (game.settings.get('knave2e', 'automaticSpells')) {
-        // Reminder if actor cannot cast spells
-        if (systemData.spells.max <= 0) {
-            Dialog.prompt({
-                title: `${game.i18n.localize('KNAVE2E.CastDialogTitle')}`,
-                content: `${this.actor.name} ${game.i18n.localize('KNAVE2E.CastDialogContentMax')}`,
-                label: 'OK',
-                callback: (html) => {
-                    return;
-                },
-            });
-            return;
-        } else if (systemData.spells.value >= systemData.spells.max) {
-            Dialog.prompt({
-                title: `${game.i18n.localize('KNAVE2E.CastDialogTitle')}`,
-                content: `${this.actor.name} ${game.i18n.localize('KNAVE2E.CastDialogContentValue')}`,
-                label: 'OK',
-                callback: (html) => {
-                    return;
-                },
-            });
-            return;
-        } else if (itemData.cast === true) {
-            Dialog.prompt({
-                title: `${game.i18n.localize('KNAVE2E.CastDialogTitle')}`,
-                content: `${this.actor.name} ${game.i18n.localize('KNAVE2E.CastDialogContentUsed')}`,
-                label: 'OK',
-                callback: (html) => {
-                    return;
-                },
-            });
-            return;
-        } else {
-            ChatMessage.create({
-                speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-                // flavor: `${this.actor.name} ${game.i18n.localize("KNAVE2E.Casts")}`,
-                content: `<br><h3>${item.name}</h3>${itemData.description}`,
-                rollMode: game.settings.get('core', 'rollMode'),
-            });
-
-            // Cast spell and increment actor's used spells
-            if (game.settings.get('knave2e', 'enforceSpells')) {
-                item.update({
-                    'system.castQuantity': itemData.castQuantity + 1,
-                });
-            }
-            this.actor.update({
-                'system.spells.value': systemData.spells.value + 1,
-            });
-        }
-    } else {
-        if (game.settings.get('knave2e', 'enforceSpells')) {
-            if (itemData.cast === true) {
-                Dialog.prompt({
-                    title: `${game.i18n.localize('KNAVE2E.CastDialogTitle')}`,
-                    content: `${this.actor.name} ${game.i18n.localize('KNAVE2E.CastDialogContentUsed')}`,
-                    label: 'OK',
-                    callback: (html) => {
-                        return;
-                    },
-                });
-                return;
-            } else {
-                ChatMessage.create({
-                    speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-                    // flavor: `${this.actor.name} ${game.i18n.localize("KNAVE2E.Casts")}`,
-                    content: `<br><h3>${item.name}</h3>${itemData.description}`,
-                    rollMode: game.settings.get('core', 'rollMode'),
-                });
-
-                item.update({
-                    'system.cast': true,
-                });
-
-                this.actor.update({
-                    'system.spells.value': systemData.spells.value + 1,
-                });
-            }
-        } else {
-            ChatMessage.create({
-                speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-                // flavor: `${this.actor.name} ${game.i18n.localize("KNAVE2E.Casts")}`,
-                content: `<br><h3>${item.name}</h3>${itemData.description}`,
-                rollMode: game.settings.get('core', 'rollMode'),
-            });
-
-            this.actor.update({
-                'system.spells.value': systemData.spells.value + 1,
-            });
-        }
+    const category = itemData.category;
+    
+    // Determine if this is a dual cast based on the button clicked
+    // Dual cast uses double mana for enhanced effects, but still only one check
+    const isDualCast = a.dataset.action === 'dualcast';
+    
+    // Validate spellbook category
+    if (!validateSpellbookCategory(item, category)) {
+        return;
     }
+
+    // Get the ability value for the spellbook's category
+    const abilityValue = systemData.abilities[category].value;
+    const abilityLabel = game.i18n.localize(`ABILITIES.${category.charAt(0).toUpperCase() + category.slice(1)}`);
+    
+    // Check if character is untrained (0 in ability)
+    if (!validateAbilityTraining(this.actor, abilityValue, abilityLabel)) {
+        return;
+    }
+    
+    // Check if character has enough mana
+    if (!validateManaAvailability(this.actor, item, isDualCast)) {
+        return;
+    }
+    
+    // Perform ability check and show results
+    await performSpellCheck(this.actor, item, abilityValue, abilityLabel, isDualCast);
+
+    // Consume mana
+    consumeMana(this.actor, item, isDualCast);
+
+    // Update spell tracking (for legacy systems if still needed)
+    updateSpellTracking(this.actor, item);
 }
 
 export async function onAttack(event) {
