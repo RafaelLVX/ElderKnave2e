@@ -1,13 +1,35 @@
 export default class Knave2eActor extends Actor {
-    async _preCreate(data) {
-        if ((await super._preCreate(data)) === false) return false;
+    /** @override */
+    static migrateData(source) {
+        // Fix incomplete compendiumSource UUIDs (missing actor ID)
+        if (source._stats?.compendiumSource && 
+            typeof source._stats.compendiumSource === 'string' &&
+            source._stats.compendiumSource.endsWith('Actor.')) {
+            source._stats.compendiumSource = null;
+        }
+        // Fix empty string compendiumSource
+        if (source._stats?.compendiumSource === '') {
+            source._stats.compendiumSource = null;
+        }
+        return super.migrateData(source);
+    }
+
+    async _preCreate(data, options, user) {
+        if ((await super._preCreate(data, options, user)) === false) return false;
+        
+        const updates = {};
+        
         if (data.type === 'character' || data.type === 'recruit') {
-            this.updateSource({ 'prototypeToken.actorLink': true });
+            updates['prototypeToken.actorLink'] = true;
         }
         if (data.type === 'character') {
             if (game.settings.get('knave2e', 'automaticVision')) {
-                this.updateSource({ 'prototypeToken.sight.enabled': true });
+                updates['prototypeToken.sight.enabled'] = true;
             }
+        }
+        
+        if (Object.keys(updates).length > 0) {
+            this.updateSource(updates);
         }
     }
 

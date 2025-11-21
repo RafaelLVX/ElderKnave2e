@@ -309,6 +309,41 @@ export default class Knave2eActorSheet extends ActorSheet {
             item.sheet.render(true);
         });
 
+        /* -------------------------------------------- */
+        /*  Item Rolls (Available for all sheets)      */
+        /* -------------------------------------------- */
+
+        // Attack Roll
+        html.on('click', '.item-button.attack', onAttack.bind(this));
+
+        // Sheet Damage/Direct rolls (chat button rolls handled in './documents/chat-message.mjs')
+        html.on('click', '.item-button.damage.sheet', onDamageFromSheet.bind(this));
+
+        // Cast Spell (handles both cast and dual cast)
+        html.on('click', '.item-button.cast', onCast.bind(this));
+
+        /* -------------------------------------------- */
+        /*  Actor Action Buttons (Available for all)   */
+        /* -------------------------------------------- */
+
+        // Checks & Abilities.
+        html.on('click', '.actor-button.check', this._onCheck.bind(this));
+
+        // Armor Points for Player-Facing Rolls
+        html.on('click', '.actor-button.ap', this._onAP.bind(this));
+
+        // Resting
+        html.on('click', '.actor-button.rest', this._onRest.bind(this));
+
+        // Morale
+        html.on('click', '.actor-button.morale', this._onMorale.bind(this));
+
+        // Number Appearing
+        html.on('click', '.actor-button.numberAppearing', this._onNumberAppearing.bind(this));
+
+        // Explicitly enable all action buttons for compendium actors (they should work even if sheet isn't editable)
+        html.find('.item-button, .actor-button').prop('disabled', false);
+
         // -------------------------------------------------------------
         // Return if sheet is not editable
         if (!this.isEditable) return;
@@ -345,38 +380,6 @@ export default class Knave2eActorSheet extends ActorSheet {
 
         // Toggle Item Icons
         html.on('click', '.item-toggle', this._onItemToggle.bind(this));
-
-        /* -------------------------------------------- */
-        /*  Item Rolls                                  */
-        /* -------------------------------------------- */
-
-        // Attack Roll
-        html.on('click', '.item-button.attack', onAttack.bind(this));
-
-        // Sheet Damage/Direct rolls (chat button rolls handled in './documents/chat-message.mjs')
-        html.on('click', '.item-button.damage.sheet', onDamageFromSheet.bind(this));
-
-        // Cast Spell (handles both cast and dual cast)
-        html.on('click', '.item-button.cast', onCast.bind(this));
-
-        /* -------------------------------------------- */
-        /*  Sheet Buttons                               */
-        /* -------------------------------------------- */
-
-        // Checks & Abilities.
-        html.on('click', '.actor-button.check', this._onCheck.bind(this));
-
-        // Armor Points for Player-Facing Rolls
-        html.on('click', '.actor-button.ap', this._onAP.bind(this));
-
-        // Resting
-        html.on('click', '.actor-button.rest', this._onRest.bind(this));
-
-        // Morale
-        html.on('click', '.actor-button.morale', this._onMorale.bind(this));
-
-        // Number Appearing
-        html.on('click', '.actor-button.numberAppearing', this._onNumberAppearing.bind(this));
 
         /* -------------------------------------------- */
         /*  Sheet Dropdown                              */
