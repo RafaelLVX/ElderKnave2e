@@ -308,7 +308,7 @@ Hooks.once('init', function () {
     });
 
     CONFIG.Combat.initiative = {
-        formula: '1d20 + @abilities.charisma.value',
+        formula: '1d20 + @initiative',
         decimals: 2,
     };
 
