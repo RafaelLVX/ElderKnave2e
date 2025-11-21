@@ -155,7 +155,6 @@ async function buildPacks() {
               }
               
               processedEntries.push(JSON.stringify(entry));
-              console.log(`[packs]   Added: ${entry.name || entry._id || 'unknown'}`);
             }
             
             if (processedEntries.length > 0) {

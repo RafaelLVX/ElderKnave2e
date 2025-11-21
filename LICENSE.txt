@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2023 Lee Talman
+Copyright (c) 2025 Rafael Lopes Vivian (modifications and Elder Knave system)
+Copyright (c) 2023 Lee Talman (original Knave Second Edition for FoundryVTT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -12,9 +13,20 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-This license does not apply to the images and compendium content listed in this 
-software's "packs" and "assets" directories. Content in the "packs" and "assets" 
-directories is copyrighted by Ben Milton and Questing Beast, LLC.
+This license applies to the software code. It does not apply to the images 
+and compendium content listed in this software's "packs" and "assets" directories.
+
+- Core Knave compendium packs content copyright of Ben Milton and Questing 
+  Beast, LLC.
+- Icons under CC-BY 3.0 (http://creativecommons.org/licenses/by/3.0/) by
+  - Carl Olsen (https://twitter.com/unstoppableCarl)
+  - Caro Asercion (https://game-icons.net/)
+  - Cathelineau (https://game-icons.net/)
+  - Delapouite (https://delapouite.com/)
+  - Lorc (https://lorcblog.blogspot.com/)
+  - sbed (http://opengameart.org/content/95-game-icons)
+  - Skoll (https://game-icons.net/)
+  - Game-icons.net (https://game-icons.net/)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

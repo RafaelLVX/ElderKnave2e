@@ -43,5 +43,23 @@
     "units": "ft"
   },
   "primaryTokenAttribute": "hitPoints",
-  "secondaryTokenAttribute": "wounds"
+  "secondaryTokenAttribute": "wounds",
+  "packs": [
+    {
+      "name": "coreknave2e-bestiary",
+      "label": "Bestiary",
+      "path": "packs/CoreKnave2e/bestiary.db",
+      "type": "Actor",
+      "system": "elderknave2e",
+      "private": true
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Core Knave 2e",
+      "packs": [
+        "coreknave2e-bestiary"
+      ]
+    }
+  ]
 }

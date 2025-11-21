@@ -6,15 +6,12 @@ This game system for [Foundry Virtual Tabletop](https://foundryvtt.com/) provide
 
 ![Sheet Screenshot](./assets/sheet-screenshot.png)
 
-Knave Second Edition for FoundryVTT is an independent production of Lee Talman and is not affiliated with Questing Beast LLC. 
-
-## Automatic Installation
-Knave Second Edition for FoundryVTT is now available to download from Foundry's [official game system](https://foundryvtt.com/packages/knave2e) list!
+Knave Second Edition for FoundryVTT is an independent production of Lee Talman and is not affiliated with Questing Beast LLC.
 
 ## Manual Installation
 1. In your Foundry UI, select "Install System" under "Game Systems".
 2. Copy and paste the following link into the "Manifest URL field", then click "Install":
-`https://raw.githubusercontent.com/Lee-Talman/knave2e/main/system.json`
+`https://raw.githubusercontent.com/RafaelLVX/ElderKnave2e/main/system.json`
 
 
 ## Features
@@ -108,12 +105,18 @@ You can add/modify levels easily by editing this string. Here's an example that 
 ## Bug Reporting
 Knave Second Edition for FoundryVTT is still in a beta stage, and is likely to have many missing features, bugs, and edge cases. Report any issues (preferably with `F12 > Inspect Editor` screenshots) in the [Issues](https://github.com/Lee-Talman/knave2e/issues) page.
 
-## Special Thanks
-This system would not have been possible without the following people:
-1. Ben Milton and Questing Beast LLC. Thank you for a fantastic follow-up to Knave First Edition, and thank you for the permission to distribute this system to other fans!
-
-2. The FoundryVTT Boilerplate System developer [asacolips](https://github.com/asacolips), who is responsible for indirectly birthing more FoundryVTT game systems than anyone.
-
-3. [mxzf](https://gitlab.com/mxzf), [chaosOS](https://github.com/JPMeehan), [Ethaks](https://github.com/Ethaks), `Draft`, and the rest of the incredible FoundryVTT development gurus in the FoundryVTT Discord server. Partially for their wisdom, but mostly for their patience.
+## Credits
+- *Knave 2nd Edition* by Ben Milton and Questing Beast, LLC.
+- *Knave Second Edition for FoundryVTT* code originally by [Lee Talman](https://github.com/Lee-Talman/knave2e) (MIT License)
+- *Elder Knave* modifications and this fork by Rafael Lopes Vivian
+- Icons published under [CC-BY 3.0](http://creativecommons.org/licenses/by/3.0/) license by:
+  - [Carl Olsen](https://twitter.com/unstoppableCarl)
+  - [Caro Asercion](https://game-icons.net/)
+  - [Cathelineau](https://game-icons.net/)
+  - [Delapouite](https://delapouite.com/)
+  - [Lorc](https://lorcblog.blogspot.com/)
+  - [sbed](http://opengameart.org/content/95-game-icons)
+  - [Skoll](https://game-icons.net/)
+  - [Game-icons.net](https://game-icons.net/)
 
 
