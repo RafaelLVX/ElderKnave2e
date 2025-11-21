@@ -68,6 +68,116 @@ async function runCssBuild() {
   console.log('[verify] CSS artifact present (' + stat.size + ' bytes)');
 }
 
+async function buildPacks() {
+  console.log('[stage] Building compendium packs...');
+  const srcDir = path.join(root, 'packs');
+  const buildRoot = path.join(root, 'build');
+  const packsDir = path.join(buildRoot, systemId, 'packs');
+  
+  if (!fs.existsSync(srcDir)) {
+    console.log('[info] No packs directory found, skipping pack build');
+    return;
+  }
+  
+  try {
+    // Find all pack groups
+    const packGroups = fs.readdirSync(srcDir);
+    let totalEntries = 0;
+    
+    for (const group of packGroups) {
+      const groupPath = path.join(srcDir, group);
+      const stat = fs.statSync(groupPath);
+      
+      if (stat.isDirectory()) {
+        console.log(`[packs] Processing group: ${group}`);
+        
+        // Find all pack files (JSON files in the group directory)
+        const files = fs.readdirSync(groupPath);
+        const jsonFiles = files.filter(f => f.endsWith('.json'));
+        
+        for (const file of jsonFiles) {
+          const filePath = path.join(groupPath, file);
+          const packName = path.basename(file, '.json');
+          
+          const outputDir = path.join(packsDir, group);
+          const outputFile = path.join(outputDir, `${packName}.db`);
+          
+          // Ensure output directory exists
+          fse.ensureDirSync(outputDir);
+          
+          // Read the JSON file
+          const content = fs.readFileSync(filePath, 'utf8');
+          
+          try {
+            const data = JSON.parse(content);
+            
+            // Handle both single object and array of objects
+            const entries = Array.isArray(data) ? data : [data];
+            
+            if (entries.length === 0) {
+              console.warn(`[packs] No entries in ${group}/${file}`);
+              continue;
+            }
+            
+            // Process each entry
+            const processedEntries = [];
+            for (const entry of entries) {
+              // Ensure proper _stats metadata for Foundry v12
+              if (!entry._stats) {
+                entry._stats = {
+                  compendiumSource: null,
+                  duplicateSource: null,
+                  coreVersion: "12.343",
+                  systemId: systemId,
+                  systemVersion: version,
+                  createdTime: null,
+                  modifiedTime: null,
+                  lastModifiedBy: null
+                };
+              }
+              
+              // Ensure embedded items also have proper _stats
+              if (entry.items && Array.isArray(entry.items)) {
+                entry.items.forEach(item => {
+                  if (!item._stats) {
+                    item._stats = {
+                      compendiumSource: null,
+                      duplicateSource: null,
+                      coreVersion: "12.343",
+                      systemId: systemId,
+                      systemVersion: version,
+                      createdTime: null,
+                      modifiedTime: null,
+                      lastModifiedBy: null
+                    };
+                  }
+                });
+              }
+              
+              processedEntries.push(JSON.stringify(entry));
+              console.log(`[packs]   Added: ${entry.name || entry._id || 'unknown'}`);
+            }
+            
+            if (processedEntries.length > 0) {
+              // Write entries to .db file (one JSON object per line)
+              fs.writeFileSync(outputFile, processedEntries.join('\n') + '\n');
+              console.log(`[packs] Built ${group}/${packName}.db with ${processedEntries.length} entries`);
+              totalEntries += processedEntries.length;
+            }
+          } catch (error) {
+            console.error(`[packs] Error parsing ${file}:`, error.message);
+          }
+        }
+      }
+    }
+    
+    console.log(`[packs] Complete: ${totalEntries} total entries built`);
+  } catch (error) {
+    console.error('[packs] Error building packs:', error.message);
+    process.exit(1);
+  }
+}
+
 function cleanDir(dir) {
   if (fs.existsSync(dir)) {
     fse.removeSync(dir);
@@ -127,6 +237,7 @@ async function main() {
   console.log(`Packaging system '${systemId}' v${version}`);
   await runCssBuild();
   const stagedDir = copyRuntime();
+  await buildPacks();
   if (zip) {
     await createZip(stagedDir);
   } else {
