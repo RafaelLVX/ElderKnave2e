@@ -1,0 +1,1708 @@
+[
+  {
+    "_id": "coreknave2e-animated-armor",
+    "name": "Animated Armor",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/animated-armor-barbute.svg",
+    "system": {
+      "description": "Immune to mental effects. Dark vision. Held together by magic. Loud.",
+      "level": 6,
+      "armorClass": 18,
+      "armorPoints": 7,
+      "morale": 12,
+      "numberAppearing": {
+        "combined": "1d6(0)",
+        "dungeon": "1d6",
+        "wilderness": "0"
+      },
+      "hitPoints": {
+        "value": 24,
+        "max": 24
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-animated-armor-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d8"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Animated Armor",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/animated-armor-barbute.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-bandit",
+    "name": "Bandit",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/bandit-cloak-dagger.svg",
+    "system": {
+      "description": "Like to ambush.",
+      "level": 1,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 8,
+      "numberAppearing": {
+        "combined": "1d8(3d10)",
+        "dungeon": "1d8",
+        "wilderness": "3d10"
+      },
+      "hitPoints": {
+        "value": 4,
+        "max": 4
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-bandit-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Bandit",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/bandit-cloak-dagger.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-basilisk",
+    "name": "Basilisk",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/basilisk-axolotl.svg",
+    "system": {
+      "description": "Petrifies targets who look in its eyes and fail a CON check. Creatures take -5 to attacks while avoiding its gaze.",
+      "level": 6,
+      "armorClass": 15,
+      "armorPoints": 4,
+      "morale": 9,
+      "numberAppearing": {
+        "combined": "1d6(1d6)",
+        "dungeon": "1d6",
+        "wilderness": "1d6"
+      },
+      "hitPoints": {
+        "value": 24,
+        "max": 24
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-basilisk-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/lizard-bite-sharp-lips.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d10"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Basilisk",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/basilisk-dimetrodon.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-black-pudding",
+    "name": "Black Pudding",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/black-pudding-gloop.svg",
+    "system": {
+      "description": "Only vulnerable to fire. When hit by a non-fire attack, it creates a LVL 2 pudding that deals d8 damage. Dissolves metal and wood and can move across ceilings and walls.",
+      "level": 10,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 12,
+      "numberAppearing": {
+        "combined": "1(0)",
+        "dungeon": "1",
+        "wilderness": "0"
+      },
+      "hitPoints": {
+        "value": 40,
+        "max": 40
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-black-pudding-touch",
+        "name": "Touch",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/gooey-molecule.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "3d8"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Black Pudding",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/black-pudding-gloop.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-blink-dog",
+    "name": "Blink Dog",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/blink-dog-hound.svg",
+    "system": {
+      "description": "d4 × 10’ teleportation. Can teleport into and then out of melee on their turn.",
+      "level": 4,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 6,
+      "numberAppearing": {
+        "combined": "1d6(1d6)",
+        "dungeon": "1d6",
+        "wilderness": "1d6"
+      },
+      "hitPoints": {
+        "value": 16,
+        "max": 16
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-blink-dog-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Blink Dog",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/blink-dog-hound.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-brain-flayer",
+    "name": "Brain Flayer",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/brain-flayer-squid-head.svg",
+    "system": {
+      "description": "Attacks with psychic attack or 4 tentacles. Psychic attack either mind controls or deals 3d6 damage to a target up to 40’ away who fails a WIS check. Eats a victim’s brain d4 rounds after a tentacle hits. Inhuman motives, iron will. Levitates.",
+      "level": 8,
+      "armorClass": 15,
+      "armorPoints": 4,
+      "morale": 7,
+      "numberAppearing": {
+        "combined": "1d4(1d4)",
+        "dungeon": "1d4",
+        "wilderness": "1d4"
+      },
+      "hitPoints": {
+        "value": 32,
+        "max": 32
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-brain-flayer-psychic",
+        "name": "Psychic",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/psychic-blast-rear-aura.svg",
+        "system": {
+          "description": "Psychic attack: either mind controls or deals 3d6 to a target up to 40’ who fails a WIS check.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "3d6"
+        }
+      },
+      {
+        "_id": "coreknave2e-brain-flayer-tentacle",
+        "name": "Tentacle",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/tentacle-strike.svg",
+        "system": {
+          "description": "Tentacle attack; a tentacle hit precedes brain-eating sequence.",
+          "category": "attack",
+          "attackAmount": 4,
+          "attackBonus": 0,
+          "damageRoll": "1d2"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Brain Flayer",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/brain-flayer-squid-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-bugbear",
+    "name": "Bugbear",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/bugbear-goblin-head.svg",
+    "system": {
+      "description": "+5 on surprise checks. Full of low cunning. Always hungry.",
+      "level": 3,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 9,
+      "numberAppearing": {
+        "combined": "2d4(5d4)",
+        "dungeon": "2d4",
+        "wilderness": "5d4"
+      },
+      "hitPoints": {
+        "value": 12,
+        "max": 12
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-bugbear-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Bugbear",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/bugbear-goblin-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-bulette",
+    "name": "Bulette",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/bulette-shark-jaws.svg",
+    "system": {
+      "description": "Attacks with 1 bite and 2 claws. If cornered, it can leap 20’ forwards and attack with 4 claws.",
+      "level": 9,
+      "armorClass": 19,
+      "armorPoints": 8,
+      "morale": 11,
+      "numberAppearing": {
+        "combined": "0(1d2)",
+        "dungeon": "0",
+        "wilderness": "1d2"
+      },
+      "hitPoints": {
+        "value": 36,
+        "max": 36
+      },
+      "movement": 50
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-bulette-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "4d12"
+        }
+      },
+      {
+        "_id": "coreknave2e-bulette-claw",
+        "name": "Claw",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/claw-attack-bloody-stash.svg",
+        "system": {
+          "description": "Used as part of multi-claw attacks; can make many claw attacks when leaping.",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "3d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Bulette",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/bulette-shark-jaws.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-doppelganger",
+    "name": "Doppelganger",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/doppelganger-balaclava.svg",
+    "system": {
+      "description": "Can duplicate nearby humanoids. Changes back when dead.",
+      "level": 4,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1d6(1d6)",
+        "dungeon": "1d6",
+        "wilderness": "1d6"
+      },
+      "hitPoints": {
+        "value": 16,
+        "max": 16
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-doppelganger-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d12"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Doppelganger",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/doppelganger-balaclava.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-dragon",
+    "name": "Dragon",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/spiked-dragon-head.svg",
+    "system": {
+      "description": "Attacks with fire breath or 2 claws and 1 bite. Enjoys flattery. Fire breath: 90’ cone, damage equal to its own HP. MOV 80’ when flying.",
+      "level": 10,
+      "armorClass": 20,
+      "armorPoints": 9,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1d4(1d4)",
+        "dungeon": "1d4",
+        "wilderness": "1d4"
+      },
+      "hitPoints": {
+        "value": 40,
+        "max": 40
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-dragon-fire-breath",
+        "name": "Fire Breath",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/dragon-breath.svg",
+        "system": {
+          "description": "90’ cone. Damage equal to the dragon’s current HP.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": ""
+        }
+      },
+      {
+        "_id": "coreknave2e-dragon-claw",
+        "name": "Claw",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/claw-attack-bloody-stash.svg",
+        "system": {
+          "description": "Claw attack as listed.",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "1d8"
+        }
+      },
+      {
+        "_id": "coreknave2e-dragon-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "Bite attack as listed.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "4d8"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Dragon",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/spiked-dragon-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-eye-tyrant",
+    "name": "Eye Tyrant",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/eye-tyrant-floating-tentacles.svg",
+    "system": {
+      "description": "Attacks with bite or eye rays. Central eye creates 60’ anti-magic cone. Each of 10 eye stalks can fire a random spell once per round (Knave pp. 22-25). Megalomaniac.",
+      "level": 11,
+      "armorClass": 19,
+      "armorPoints": 8,
+      "morale": 12,
+      "numberAppearing": {
+        "combined": "1(0)",
+        "dungeon": "1",
+        "wilderness": "0"
+      },
+      "hitPoints": {
+        "value": 44,
+        "max": 44
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-eye-tyrant-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "2d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Eye Tyrant",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/eye-tyrant-floating-tentacles.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-gelatinous-cube",
+    "name": "Gelatinous Cube",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/gelatinous-cube-ice-cube.svg",
+    "system": {
+      "description": "Immune to lightning and cold. +5 on surprise checks. Touched targets are engulfed and take 2d4 damage each turn. Escape by passing a STR check.",
+      "level": 4,
+      "armorClass": 11,
+      "armorPoints": 0,
+      "morale": 12,
+      "numberAppearing": {
+        "combined": "1(0)",
+        "dungeon": "1",
+        "wilderness": "0"
+      },
+      "hitPoints": {
+        "value": 16,
+        "max": 16
+      },
+      "movement": 10
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-gelatinous-cube-touch",
+        "name": "Touch",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/gooey-molecule.svg",
+        "system": {
+          "description": "Touched targets are engulfed and take 2d4 damage each turn. Escape by passing a STR check.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "2d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Gelatinous Cube",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/gelatinous-cube-ice-cube.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-ghost",
+    "name": "Ghost",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/ghost-haunting.svg",
+    "system": {
+      "description": "Attacks with life drain or possession. Undead, silent, immune to mental spells. Only harmed by silver and magic. Life drain removes a random ability score point. Possession takes over a creature within 60’ who fails a WIS check. Complete a mission (Knave p. 51) to let it rest.",
+      "level": 10,
+      "armorClass": 19,
+      "armorPoints": 8,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1(1)",
+        "dungeon": "1",
+        "wilderness": "1"
+      },
+      "hitPoints": {
+        "value": 40,
+        "max": 40
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-ghost-life-drain",
+        "name": "Life Drain",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/ghost-touch-evil-hand.svg",
+        "system": {
+          "description": "Life drain attack removes a random ability score point on hit.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": ""
+        }
+      },
+      {
+        "_id": "coreknave2e-ghost-possession",
+        "name": "Possession",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/telepathy.svg",
+        "system": {
+          "description": "Possession takes over a creature within 60’ who fails a WIS check.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": ""
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Ghost",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/ghost-haunting.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-ghoul",
+    "name": "Ghoul",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/ghoul-trap-mask.svg",
+    "system": {
+      "description": "Attacks with 2 claws and 1 bite. Undead, silent, immune to mental spells. Hits paralyze targets who fail a STR check for 2d4 turns.",
+      "level": 2,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 9,
+      "numberAppearing": {
+        "combined": "1d6(2d8)",
+        "dungeon": "1d6",
+        "wilderness": "2d8"
+      },
+      "hitPoints": {
+        "value": 8,
+        "max": 8
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-ghoul-claw",
+        "name": "Claw",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/claw-attack-bloody-stash.svg",
+        "system": {
+          "description": "Hits paralyze targets who fail a STR check for 2d4 turns.",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "1d3"
+        }
+      },
+      {
+        "_id": "coreknave2e-ghoul-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "Hits paralyze targets who fail a STR check for 2d4 turns.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d3"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Ghoul",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/ghoul-trap-mask.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-giant",
+    "name": "Giant",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/giant.svg",
+    "system": {
+      "description": "Attacks with weapon or boulder. Stupid.",
+      "level": 8,
+      "armorClass": 15,
+      "armorPoints": 4,
+      "morale": 8,
+      "numberAppearing": {
+        "combined": "1d4(2d4)",
+        "dungeon": "1d4",
+        "wilderness": "2d4"
+      },
+      "hitPoints": {
+        "value": 32,
+        "max": 32
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-giant-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "Weapon attack as listed.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "2d8"
+        }
+      },
+      {
+        "_id": "coreknave2e-giant-boulder",
+        "name": "Boulder",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/rock.svg",
+        "system": {
+          "description": "Boulder toss.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "3d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Giant",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/giant.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-giant-frog",
+    "name": "Giant Frog",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/frog.svg",
+    "system": {
+      "description": "Attacks up to 15’ away with its sticky tongue. On a hit, target is dragged to its mouth and bitten. On an attack roll of 20, target is swallowed and takes d6 direct damage each round until the toad dies.",
+      "level": 3,
+      "armorClass": 12,
+      "armorPoints": 1,
+      "morale": 6,
+      "numberAppearing": {
+        "combined": "1d4(1d4)",
+        "dungeon": "1d4",
+        "wilderness": "1d4"
+      },
+      "hitPoints": {
+        "value": 12,
+        "max": 12
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-giant-frog-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "15’ reach with its sticky tongue. On a hit, target is dragged to its mouth and bitten. On an attack roll of 20, target is swallowed and takes d6 direct damage each round until the toad dies.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Giant Frog",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/frog.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-giant-spider",
+    "name": "Giant Spider",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/giant-spider-face.svg",
+    "system": {
+      "description": "Bitten targets who fail a CON check die in d4 turns. Paranoid.",
+      "level": 3,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 8,
+      "numberAppearing": {
+        "combined": "1d3(1d3)",
+        "dungeon": "1d3",
+        "wilderness": "1d3"
+      },
+      "hitPoints": {
+        "value": 12,
+        "max": 12
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-giant-spider-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/insect-bite-insect-jaws.svg",
+        "system": {
+          "description": "When hit, targets who fail a CON check die in d4 turns.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Giant Spider",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/giant-spider-face.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-goblin",
+    "name": "Goblin",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/goblin-head.svg",
+    "system": {
+      "description": "Dark vision. Reckless, insane.",
+      "level": 1,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 7,
+      "numberAppearing": {
+        "combined": "2d4(6d10)",
+        "dungeon": "2d4",
+        "wilderness": "6d10"
+      },
+      "hitPoints": {
+        "value": 4,
+        "max": 4
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-goblin-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Goblin",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/goblin-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-gnoll",
+    "name": "Gnoll",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/gnoll-hyena-head-modified.svg",
+    "system": {
+      "description": "Lazy. Prefers bullying to combat.",
+      "level": 2,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 8,
+      "numberAppearing": {
+        "combined": "1d6(3d6)",
+        "dungeon": "1d6",
+        "wilderness": "3d6"
+      },
+      "hitPoints": {
+        "value": 8,
+        "max": 8
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-gnoll-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "2d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Gnoll",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/gnoll-hyena-head-modified.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-harpy",
+    "name": "Harpy",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/harpy.svg",
+    "system": {
+      "description": "Attacks with 2 claws or song. Song charms targets who fail a CHA check. MOV 50’ when flying.",
+      "level": 3,
+      "armorClass": 12,
+      "armorPoints": 1,
+      "morale": 7,
+      "numberAppearing": {
+        "combined": "1d6(2d4)",
+        "dungeon": "1d6",
+        "wilderness": "2d4"
+      },
+      "hitPoints": {
+        "value": 12,
+        "max": 12
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-harpy-claw",
+        "name": "Claw",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/claw-attack-bloody-stash.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "1d4"
+        }
+      },
+      {
+        "_id": "coreknave2e-harpy-song",
+        "name": "Song",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/telepathy.svg",
+        "system": {
+          "description": "Song charms targets who fail a CHA check.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": ""
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Harpy",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/harpy.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-hobgoblin",
+    "name": "Hobgoblin",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/hobgoblin-goblin-head.svg",
+    "system": {
+      "description": "Honorable warriors.",
+      "level": 1,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 8,
+      "numberAppearing": {
+        "combined": "1d6(4d6)",
+        "dungeon": "1d6",
+        "wilderness": "4d6"
+      },
+      "hitPoints": {
+        "value": 4,
+        "max": 4
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-hobgoblin-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d8"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Hobgoblin",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/hobgoblin-goblin-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-kobold",
+    "name": "Kobold",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/kobold-horned-reptile.svg",
+    "system": {
+      "description": "Prefer to ambush. Dark vision. Want to follow a strong leader.",
+      "level": 1,
+      "armorClass": 12,
+      "armorPoints": 1,
+      "morale": 6,
+      "numberAppearing": {
+        "combined": "4d4(6d10)",
+        "dungeon": "4d4",
+        "wilderness": "6d10"
+      },
+      "hitPoints": {
+        "value": 4,
+        "max": 4
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-kobold-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Kobold",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/kobold-horned-reptile.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-lich",
+    "name": "Lich",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/lich-dread-skull.svg",
+    "system": {
+      "description": "Touch paralyses for 6 turns on a failed STR check. Undead, silent, and immune to mental spells as well as mundane, electrical, and cold damage. Owns 10 randomly generated spell books. You are beneath his notice.",
+      "level": 11,
+      "armorClass": 19,
+      "armorPoints": 8,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1(1)",
+        "dungeon": "1",
+        "wilderness": "1"
+      },
+      "hitPoints": {
+        "value": 44,
+        "max": 44
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-lich-touch",
+        "name": "Touch",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/death-touch-disintegrate.svg",
+        "system": {
+          "description": "On a hit, paralyses for 6 rounds on a failed STR check.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d10"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Lich",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/lich-dread-skull.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-mimic",
+    "name": "Mimic",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/mimic-chest.svg",
+    "system": {
+      "description": "Mimics objects. +5 on surprise checks. Sticky.",
+      "level": 7,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 9,
+      "numberAppearing": {
+        "combined": "1(0)",
+        "dungeon": "1",
+        "wilderness": "0"
+      },
+      "hitPoints": {
+        "value": 28,
+        "max": 28
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-mimic-pseudopod",
+        "name": "Pseudopod",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "3d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Mimic",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/mimic-chest.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-ogre",
+    "name": "Ogre",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/ogre.svg",
+    "system": {
+      "description": "Stuffs creatures into a sack for later.",
+      "level": 4,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1d6(2d6)",
+        "dungeon": "1d6",
+        "wilderness": "2d6"
+      },
+      "hitPoints": {
+        "value": 16,
+        "max": 16
+      },
+      "movement": 30
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-ogre-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d10"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Ogre",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/ogre.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-orc",
+    "name": "Orc",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/orc-head.svg",
+    "system": {
+      "description": "Takes -5 in full sun. Grognards.",
+      "level": 1,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 6,
+      "numberAppearing": {
+        "combined": "2d4(1d6*10)",
+        "dungeon": "2d4",
+        "wilderness": "1d6*10"
+      },
+      "hitPoints": {
+        "value": 4,
+        "max": 4
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-orc-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Orc",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/orc-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-owlbear",
+    "name": "Owlbear",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/owl-modified.svg",
+    "system": {
+      "description": "Attacks with 2 claws and 1 bite. Deals 2d8 bonus damage when both claws hit one target. Playful.",
+      "level": 5,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 9,
+      "numberAppearing": {
+        "combined": "1d4(1d4)",
+        "dungeon": "1d4",
+        "wilderness": "1d4"
+      },
+      "hitPoints": {
+        "value": 20,
+        "max": 20
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-owlbear-claw",
+        "name": "Claw",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/claw-attack-bloody-stash.svg",
+        "system": {
+          "description": "Claw attack; two claws may both hit a target, triggering bonus damage.",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "2d8"
+        }
+      },
+      {
+        "_id": "coreknave2e-owlbear-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/bleeding-wound.svg",
+        "system": {
+          "description": "Bite attack.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d8"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Owlbear",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/owl-modified.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-purple-worm",
+    "name": "Purple Worm",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/purple-worm-worm-mouth.svg",
+    "system": {
+      "description": "If the bite attack rolls 5+ higher than needed, the target is swallowed whole and takes 3d6 damage each round until the worm dies.",
+      "level": 15,
+      "armorClass": 13,
+      "armorPoints": 2,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1d2(1d4)",
+        "dungeon": "1d2",
+        "wilderness": "1d4"
+      },
+      "hitPoints": {
+        "value": 60,
+        "max": 60
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-purple-worm-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/insect-bite-insect-jaws.svg",
+        "system": {
+          "description": "Attacks with bite and sting. If the bite attack rolls 5+ higher than needed, target is swallowed whole and takes 3d6 damage each round until the worm dies.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "2d8"
+        }
+      },
+      {
+        "_id": "coreknave2e-purple-worm-sting",
+        "name": "Sting",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/sting-claw.svg",
+        "system": {
+          "description": "Sting attack.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d8"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Purple Worm",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/purple-worm-worm-mouth.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-rust-monster",
+    "name": "Rust Monster",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/rust-monster-earwig.svg",
+    "system": {
+      "description": "Dissolves and eats nearby metal.",
+      "level": 5,
+      "armorClass": 17,
+      "armorPoints": 6,
+      "morale": 7,
+      "numberAppearing": {
+        "combined": "1d4(1d4)",
+        "dungeon": "1d4",
+        "wilderness": "1d4"
+      },
+      "hitPoints": {
+        "value": 20,
+        "max": 20
+      },
+      "movement": 40
+    },
+    "items": [],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Rust Monster",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/rust-monster-earwig.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-skeleton",
+    "name": "Skeleton",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/skeleton-chewed-skull.svg",
+    "system": {
+      "description": "Undead, silent, immune to mental spells and piercing damage. Gleeful.",
+      "level": 1,
+      "armorClass": 12,
+      "armorPoints": 1,
+      "morale": 12,
+      "numberAppearing": {
+        "combined": "3d4(3d10)",
+        "dungeon": "3d4",
+        "wilderness": "3d10"
+      },
+      "hitPoints": {
+        "value": 4,
+        "max": 4
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-skeleton-weapon",
+        "name": "Weapon",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/axe-sword.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Skeleton",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/skeleton-chewed-skull.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-treant",
+    "name": "Treant",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/treant-tree-face.svg",
+    "system": {
+      "description": "Fears fire. +5 to surprise in a forest. Can turn up to 2 trees within 60’ into treants (who don’t have this power) over the course of two rounds. Self-righteous.",
+      "level": 8,
+      "armorClass": 17,
+      "armorPoints": 6,
+      "morale": 9,
+      "numberAppearing": {
+        "combined": "0(1d8)",
+        "dungeon": "0",
+        "wilderness": "1d8"
+      },
+      "hitPoints": {
+        "value": 32,
+        "max": 32
+      },
+      "movement": 20
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-treant-fist",
+        "name": "Fist",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/root-tip.svg",
+        "system": {
+          "description": "Fist attacks.",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "2d6"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Treant",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/treant-tree-face.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-troll",
+    "name": "Troll",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/troll.svg",
+    "system": {
+      "description": "Attacks with 2 claws and 1 bite. Recovers d6 HP/round. Revives 2d6 rounds after death. Fire or acid lowers its max HP.",
+      "level": 7,
+      "armorClass": 15,
+      "armorPoints": 4,
+      "morale": 10,
+      "numberAppearing": {
+        "combined": "1d8(1d8)",
+        "dungeon": "1d8",
+        "wilderness": "1d8"
+      },
+      "hitPoints": {
+        "value": 28,
+        "max": 28
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-troll-claw",
+        "name": "Claw",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/claw-attack-bloody-stash.svg",
+        "system": {
+          "description": "Claw attack.",
+          "category": "attack",
+          "attackAmount": 2,
+          "attackBonus": 0,
+          "damageRoll": "1d6"
+        }
+      },
+      {
+        "_id": "coreknave2e-troll-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "Bite attack.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d10"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Troll",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/troll.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-vampire",
+    "name": "Vampire",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/vampire-dracula.svg",
+    "system": {
+      "description": "Attacks with touch or gaze. Undead, silent, immune to mental spells and mundane damage. Heals d6 damage per round. A touched creature loses a point from a random ability score. Gaze attack charms the target if they fail a CHA check. Can change form to humanoid, dire wolf, giant bat, or gaseous cloud at will. Repelled by garlic, holy relics, running water, and mirrors. Killed by sunlight or a stake through the heart.",
+      "level": 8,
+      "armorClass": 17,
+      "armorPoints": 6,
+      "morale": 11,
+      "numberAppearing": {
+        "combined": "1d4(1d6)",
+        "dungeon": "1d4",
+        "wilderness": "1d6"
+      },
+      "hitPoints": {
+        "value": 32,
+        "max": 32
+      },
+      "movement": 40
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-vampire-touch",
+        "name": "Touch",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/monster-grasp.svg",
+        "system": {
+          "description": "Touch attack that deals damage and causes ability loss.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "1d10"
+        }
+      },
+      {
+        "_id": "coreknave2e-vampire-gaze",
+        "name": "Gaze",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/telepathy.svg",
+        "system": {
+          "description": "Charms the target if they fail a CHA check.",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": ""
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Vampire",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/vampire-dracula.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "coreknave2e-werewolf",
+    "name": "Werewolf",
+    "type": "monster",
+    "img": "systems/elderknave2e/assets/icons/wolf-head.svg",
+    "system": {
+      "description": "Can shift between human and wolf forms. Only harmed by silver and magic. Fears wolfsbane. Humans who are bitten become a werewolf 2d12 days later if they fail a CON check. Tortured.",
+      "level": 4,
+      "armorClass": 14,
+      "armorPoints": 3,
+      "morale": 8,
+      "numberAppearing": {
+        "combined": "1d6(2d6)",
+        "dungeon": "1d6",
+        "wilderness": "2d6"
+      },
+      "hitPoints": {
+        "value": 18,
+        "max": 18
+      },
+      "movement": 60
+    },
+    "items": [
+      {
+        "_id": "coreknave2e-werewolf-bite",
+        "name": "Bite",
+        "type": "monsterAttack",
+        "img": "systems/elderknave2e/assets/icons/animal-bite-fangs.svg",
+        "system": {
+          "description": "",
+          "category": "attack",
+          "attackAmount": 1,
+          "attackBonus": 0,
+          "damageRoll": "2d4"
+        }
+      }
+    ],
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Werewolf",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/wolf-head.svg"
+      },
+      "actorLink": false
+    }
+  }
+]
