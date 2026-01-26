@@ -1,0 +1,248 @@
+# Item Names List
+
+## Weapons (16)
+- Axe (2-handed)
+- Bow
+- Cleaver
+- Crook
+- Crossbow
+- Dagger
+- Halberd
+- Net
+- Rapier
+- Short Sword
+- Sickle
+- Sling
+- Spear
+- Staff
+- Whip
+
+## Armor (7)
+- Arm Plate
+- Breastplate
+- Gambeson
+- Helmet
+- Leg Plate
+- Mail Shirt
+- Shield
+
+## Light Sources (3)
+- Candle
+- Lantern
+- Torch
+
+## Equipment - Common (5c) (32)
+- Arrow
+- Bacon
+- Balls
+- Basket
+- Bellows
+- Black Grease
+- Blanket
+- Bones
+- Box of Nails
+- Bucket
+- Candlestick
+- Card Deck
+- Chalk
+- Clay
+- Confetti
+- Dice
+- Dyes
+- Firewood
+- Flour Bag
+- Fungi
+- Glue
+- Hammer
+- Herbs
+- Hops
+- Incense
+- Iron Spikes
+- Ladle
+- Lamp Oil
+- Lard Block
+- Leash
+- Marbles
+- Mash Paddle
+- Oats
+- Old Coin
+- Paddle
+- Poker
+- Quill/Ink
+- Quiver
+- Rolling Pin
+- Rope, 50 ft
+- Ruler
+- Sack
+- Salt
+- Saw
+- Sealing Wax
+- Shoe Polish
+- Shovel
+- Skull
+- Soap
+- Soot Pot
+- Sponge
+- Stakes
+- Stationery
+- Tacks
+- Tongs
+- Twine, 300 ft
+- Vial
+- Vials (6)
+- Wax
+- Whistle
+- Wine Jug
+
+## Equipment - Uncommon (20c) (27)
+- Acid
+- Bear Trap
+- Beer Keg
+- Bird Cage
+- Bullhorn
+- Cage
+- Calipers
+- Caltrops
+- Cannonball
+- Cauldron
+- Chain
+- Chisel
+- Chloroform
+- Costume
+- Crowbar
+- Drill
+- File
+- Fishing Tackle
+- Flash Powder
+- Garrote
+- Grappling Hook
+- Holy Water
+- Horn
+- Local Map
+- Lockpicks
+- Manacles
+- Meat Hook
+- Motley
+- Needles
+- Oilskin Bag
+- Padlock
+- Pickaxe
+- Pigments
+- Pliers
+- Pulleys
+- Rat Traps
+- Scales (Merchant)
+- Scalpel
+- Scissors
+- Shears
+- Smoke Bomb
+- Tent
+- Trumpet
+- Tweezers
+- Wig
+
+## Equipment - Rare (100c+) (5)
+- Astrolabe
+- Hourglass
+- Sextant
+- Spyglass
+- Telescope
+
+## Equipment - Other (140)
+- Air Bladder
+- Almanac
+- Amulet
+- Animal Scent
+- Arcane Robes
+- Armor Polish
+- Bag of Spice
+- Banner
+- Bear Pelt
+- Bearskin
+- Beeswax
+- Bell
+- Bomb
+- Brushes
+- Censer
+- Certificate
+- Cow
+- Crampons
+- Crystal
+- Degree
+- Dog
+- Donkey Head
+- Fake Elixir
+- Falcon
+- Fan
+- Fancy Robe
+- Fancy Shoes
+- Fireball
+- Flag
+- Forged Papers
+- Fossil
+- Frying Pan
+- Geode
+- Gloves
+- Goat
+- Hair Oil
+- Herb Manual
+- Holy Water
+- Honey
+- Hood
+- Insect Case
+- Instrument
+- Journal
+- Lady's Favor
+- Law Book
+- Level
+- Linseed Oil
+- Livery
+- Locket
+- Lockbox
+- Lore Book
+- Loupe
+- Makeup
+- Manual
+- Mask
+- Medal
+- Mirror
+- Mortar/Pestle
+- Oilskin Coat
+- Olive Oil
+- Pan
+- Perfume
+- Pet Canary
+- Pig
+- Plumb Line
+- Poison
+- Poultry
+- Prayer Book
+- Puppet
+- Relic
+- Ritual Robes
+- Rope Ladder
+- Scales (Divination)
+- Scepter
+- Signet Ring
+- Signal Flags
+- Silverware
+- Soft Boots
+- Star Charts
+- Straight Razor
+- Strongbox
+- Tarot Deck
+- Tea Leaves
+- Vestments
+- Wax Tablet
+
+## Clothing Sets (7)
+- Clothing, Humble
+- Clothing, Major Noble
+- Clothing, Minor Noble
+- Clothing, Poor
+- Clothing, Respectable
+- Clothing, Royal
+- Clothing, Wealthy
+
+## Provisions (1)
+- Rations

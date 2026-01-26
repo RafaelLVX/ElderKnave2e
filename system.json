@@ -15,7 +15,7 @@
   "readme": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/README.md",
   "bugs": "https://github.com/RafaelLVX/ElderKnave2e/issues",
   "changelog": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/CHANGELOG.md",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "compatibility": {
     "minimum": "10",
     "verified": "12",
@@ -52,13 +52,76 @@
       "type": "Actor",
       "system": "elderknave2e",
       "private": true
+    },
+    {
+      "name": "coreknave2e-items-melee",
+      "label": "Items - Melee Weapons",
+      "path": "packs/CoreKnave2e/items-melee.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
+      "name": "coreknave2e-items-missile",
+      "label": "Items - Missile Weapons",
+      "path": "packs/CoreKnave2e/items-missile.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
+      "name": "coreknave2e-items-armor",
+      "label": "Items - Armor",
+      "path": "packs/CoreKnave2e/items-armor.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
+      "name": "coreknave2e-items-clothing",
+      "label": "Items - Clothing",
+      "path": "packs/CoreKnave2e/items-clothing.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
+      "name": "coreknave2e-items-animals",
+      "label": "Items - Animals",
+      "path": "packs/CoreKnave2e/items-animals.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
+      "name": "coreknave2e-items-other",
+      "label": "Items - Other",
+      "path": "packs/CoreKnave2e/items-other.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
+      "name": "coreknave2e-items-light",
+      "label": "Items - Light Sources",
+      "path": "packs/CoreKnave2e/items-light.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
     }
   ],
   "packFolders": [
     {
       "name": "Core Knave 2e",
       "packs": [
-        "coreknave2e-bestiary"
+        "coreknave2e-bestiary",
+        "coreknave2e-items-light",
+        "coreknave2e-items-melee",
+        "coreknave2e-items-missile",
+        "coreknave2e-items-armor",
+        "coreknave2e-items-clothing",
+        "coreknave2e-items-animals",
+        "coreknave2e-items-other"
       ]
     }
   ]

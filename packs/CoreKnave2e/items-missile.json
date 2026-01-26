@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Bow", 
+    "img": "icons/svg/target.svg", 
+    "system": {
+      "category": "missile", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 120, 
+      "ammoType": "arrow", 
+      "cost": 100, 
+      "slots": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bow", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Crossbow", 
+    "img": "icons/svg/target.svg", 
+    "system": {
+      "category": "missile", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 120, 
+      "ammoType": "arrow", 
+      "cost": 100, 
+      "slots": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-crossbow", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Sling", 
+    "img": "icons/svg/target.svg", 
+    "system": {
+      "category": "missile", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d4", 
+      "range": 60, 
+      "ammoType": "stone", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-sling", 
+    "type": "weapon"
+  }
+]

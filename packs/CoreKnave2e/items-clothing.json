@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Arcane Robes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 240, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-arcane-robes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Costume", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 120, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-costume", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fancy Robe", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 50, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fancy-robe", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fancy Shoes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fancy-shoes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Gloves", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-gloves", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Hood", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-hood", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Humble Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 120, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-humble-clothes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Major Noble Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 12000, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-major-noble-clothes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Minor Noble Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 2400, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-minor-noble-clothes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Poor Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 60, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-poor-clothes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Respectable Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 240, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-respectable-clothes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Ritual Robes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 120, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-ritual-robes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Royal Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 120000, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-royal-clothes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Vestments (official)", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 200, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-vestments-official", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Wealthy Clothes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 600, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-wealthy-clothes", 
+    "type": "equipment"
+  }
+]

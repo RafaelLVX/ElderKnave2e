@@ -1,0 +1,2883 @@
+[
+  {
+    "name": "Acid", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-acid", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Air Bladder", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-air-bladder", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Almanac", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-almanac", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Amulet", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-amulet", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Animal Scent", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-animal-scent", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Armor Polish", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-armor-polish", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Astrolabe", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 150, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-astrolabe", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bacon", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bacon", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bag of Spice", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bag-of-spice", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Balls", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-balls", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Banner", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-banner", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Basket", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-basket", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bear Pelt", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 40, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bear-pelt", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bear Trap", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bear-trap", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bearskin", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 35, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bearskin", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Beer Keg", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-beer-keg", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Beeswax", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-beeswax", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bell", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bell", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bellows", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bellows", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bird Cage", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bird-cage", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Black Grease", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-black-grease", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Blanket", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-blanket", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bomb", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 50, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bomb", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bones", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bones", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Box of Nails", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-box-of-nails", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Brushes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-brushes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bucket", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bucket", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Bullhorn", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-bullhorn", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Cage", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-cage", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Calipers", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-calipers", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Caltrops", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-caltrops", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Candlestick", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-candlestick", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Cannonball", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-cannonball", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Card Deck", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-card-deck", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Cauldron", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-cauldron", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Censer", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-censer", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Certificate", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-certificate", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Chain", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-chain", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Chalk", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-chalk", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Chisel", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-chisel", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Chloroform", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-chloroform", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Clay", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-clay", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Confetti", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-confetti", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Crampons", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-crampons", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Crowbar", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-crowbar", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Crystal", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-crystal", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Degree (fake document)", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-degree-fake-document", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Dice", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-dice", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Donkey Head (costume)", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-donkey-head-costume", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Drill", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-drill", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Dyes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-dyes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fake Elixir", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fake-elixir", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fan", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fan", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "File", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-file", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Firewood", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-firewood", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fishing Tackle", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fishing-tackle", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Flag", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-flag", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Flash Powder", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-flash-powder", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Flour Bag", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-flour-bag", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Forged Papers", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-forged-papers", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fossil", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fossil", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Frying Pan", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-frying-pan", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Fungi", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-fungi", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Garrote", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-garrote", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Geode", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-geode", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Glue", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-glue", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Grappling Hook", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-grappling-hook", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Hair Oil", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-hair-oil", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Hammer", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-hammer", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Herb Manual", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-herb-manual", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Herbs", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-herbs", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Holy Water", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-holy-water", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Honey", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-honey", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Hops", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-hops", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Horn", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-horn", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Hourglass", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 100, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-hourglass", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Incense", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-incense", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Insect Case", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-insect-case", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Instrument", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-instrument", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Iron Spikes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-iron-spikes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Journal", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-journal", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Ladle", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-ladle", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Lady's Favor", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lady's-favor", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Lamp Oil", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lamp-oil", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Lard Block", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lard-block", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Law Book", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 40, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-law-book", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Leash", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-leash", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Level", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-level", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Linseed Oil", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-linseed-oil", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Livery", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-livery", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Local Map", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-local-map", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Lockbox", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 35, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lockbox", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Locket", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-locket", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Lockpicks", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lockpicks", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Lore Book", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 40, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lore-book", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Loupe", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-loupe", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Makeup", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-makeup", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Manacles", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-manacles", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Manual", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-manual", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Marbles", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 100
+    }, 
+    "_id": "ck2e-items-marbles", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Mash Paddle", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-mash-paddle", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Mask", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-mask", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Meat Hook", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-meat-hook", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Medal", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-medal", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Mirror", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-mirror", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Mortar/Pestle", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-mortar-pestle", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Motley", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-motley", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Needles", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-needles", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Net", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-net", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Oats", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-oats", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Oilskin Bag", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-oilskin-bag", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Oilskin Coat", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-oilskin-coat", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Old Coin", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 1, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-old-coin", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Olive Oil", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-olive-oil", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Paddle", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-paddle", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Padlock", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-padlock", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pan", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pan", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Perfume", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-perfume", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pet Canary", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pet-canary", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pickaxe", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pickaxe", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pigments", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pigments", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pliers", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pliers", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Plumb Line", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-plumb-line", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Poison", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-poison", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Poker", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-poker", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Prayer Book", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-prayer-book", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pulleys", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pulleys", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Puppet", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-puppet", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Quill/Ink", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-quill-ink", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Quiver", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-quiver", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Rat Traps", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-rat-traps", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Ration", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-ration", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Relic", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 100, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-relic", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Rolling Pin", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-rolling-pin", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Rope Ladder", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-rope-ladder", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Rope, 50 ft", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-rope-50-ft", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Ruler", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-ruler", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Sack", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-sack", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Salt", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-salt", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Saw", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-saw", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Scales", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-scales", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Scalpel", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-scalpel", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Scepter", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-scepter", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Scissors", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-scissors", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Sealing Wax", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-sealing-wax", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Sextant", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 250, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-sextant", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Shears", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-shears", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Shoe Polish", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-shoe-polish", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Shovel", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-shovel", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Signal Flags", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 15, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-signal-flags", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Signet Ring", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 50, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-signet-ring", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Silverware", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-silverware", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Skull", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-skull", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Smoke Bomb", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-smoke-bomb", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Soap", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-soap", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Soft Boots", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-soft-boots", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Soot Pot", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-soot-pot", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Spell Book", 
+    "img": "icons/svg/book.svg", 
+    "system": {
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "cost": 250, 
+      "tier": "novice", 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-spell-book", 
+    "type": "spellbook"
+  }, 
+  {
+    "name": "Sponge", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-sponge", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Spyglass", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 100, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-spyglass", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Stakes", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 10
+    }, 
+    "_id": "ck2e-items-stakes", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Star Charts", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 30, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-star-charts", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Stationery", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-stationery", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Straight Razor", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-straight-razor", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Strongbox", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 40, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-strongbox", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Tacks", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-tacks", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Tarot Deck", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 25, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-tarot-deck", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Tea Leaves", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-tea-leaves", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Telescope", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 120, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-telescope", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Tent", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-tent", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Tongs", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-tongs", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Trumpet", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-trumpet", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Tweezers", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-tweezers", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Twine, 300 ft", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-twine-300-ft", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Vials (6)", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 100, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-vials-6", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Wax", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-wax", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Wax Tablet", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 10, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-wax-tablet", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Whistle", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-whistle", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Wig", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-wig", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Wine Jug (full)", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-wine-jug-full", 
+    "type": "equipment"
+  }
+]

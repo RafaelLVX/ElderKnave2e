@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Arm Plate", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "armPlate", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 500, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-arm-plate", 
+    "type": "armor"
+  }, 
+  {
+    "name": "Breastplate", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "breastplate", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 500, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-breastplate", 
+    "type": "armor"
+  }, 
+  {
+    "name": "Gambeson", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "gambeson", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 100, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-gambeson", 
+    "type": "armor"
+  }, 
+  {
+    "name": "Helmet", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "helmet", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 100, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-helmet", 
+    "type": "armor"
+  }, 
+  {
+    "name": "Leg Plate", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "legPlate", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 500, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-leg-plate", 
+    "type": "armor"
+  }, 
+  {
+    "name": "Mail Shirt", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "mailShirt", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 200, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-mail-shirt", 
+    "type": "armor"
+  }, 
+  {
+    "name": "Shield", 
+    "img": "icons/svg/shield.svg", 
+    "system": {
+      "category": "shield", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "armorPoints": 1, 
+      "cost": 100, 
+      "equipped": true, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-shield", 
+    "type": "armor"
+  }
+]

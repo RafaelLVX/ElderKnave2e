@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 0.6.0
+- Added comprehensive compendium pack system with multiple item categories
+- Simple .db format implementation for better maintainability
+- Added Core Knave 2e item packs: melee weapons, missile weapons, armor, clothing, animals, light sources, and other items
+- Added Core Knave 2e bestiary pack with monsters and embedded attacks
+
 ## 0.3.3
 - Update system for v12 compatibility
 - Fix deprecation warnings after migration to v12

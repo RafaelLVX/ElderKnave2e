@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Axe", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d8", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 100, 
+      "slots": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-axe", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Cleaver", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-cleaver", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Crook", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-crook", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Dagger", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-dagger", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Halberd", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d8", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 100, 
+      "slots": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-halberd", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Hatchet", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-hatchet", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Longsword", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d8", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 100, 
+      "slots": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-longsword", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Mace", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-mace", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Maul", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d8", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 100, 
+      "slots": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-maul", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Morning Star", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-morning-star", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Rapier", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-rapier", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Short Sword", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-short-sword", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Sickle", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-sickle", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Spear", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-spear", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Staff", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-staff", 
+    "type": "weapon"
+  }, 
+  {
+    "name": "Whip", 
+    "img": "icons/svg/sword.svg", 
+    "system": {
+      "category": "melee", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "attackBonus": 0, 
+      "damageRoll": "1d6", 
+      "range": 5, 
+      "ammoType": "none", 
+      "cost": 50, 
+      "slots": 1, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-whip", 
+    "type": "weapon"
+  }
+]

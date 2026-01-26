@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Candle", 
+    "img": "icons/svg/light.svg", 
+    "system": {
+      "category": "torch", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "brightRadius": 5, 
+      "lit": false, 
+      "intensity": 2, 
+      "cost": 5, 
+      "dimRadius": 10, 
+      "slots": 1, 
+      "speed": 1, 
+      "quantity": 10
+    }, 
+    "_id": "ck2e-items-candle", 
+    "type": "lightSource"
+  }, 
+  {
+    "name": "Lantern", 
+    "img": "icons/svg/light.svg", 
+    "system": {
+      "category": "torch", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "brightRadius": 15, 
+      "lit": false, 
+      "intensity": 4, 
+      "cost": 20, 
+      "dimRadius": 30, 
+      "slots": 1, 
+      "speed": 2, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-lantern", 
+    "type": "lightSource"
+  }, 
+  {
+    "name": "Torch", 
+    "img": "icons/svg/light.svg", 
+    "system": {
+      "category": "torch", 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "brightRadius": 10, 
+      "lit": false, 
+      "intensity": 3, 
+      "cost": 5, 
+      "dimRadius": 20, 
+      "slots": 1, 
+      "speed": 3, 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-torch", 
+    "type": "lightSource"
+  }
+]

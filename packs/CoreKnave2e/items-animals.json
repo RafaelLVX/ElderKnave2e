@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Cow", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 4, 
+      "cost": 100, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-cow", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Dog", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-dog", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Falcon", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 1000, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-falcon", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Goat", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-goat", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Pig", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 2, 
+      "cost": 20, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-pig", 
+    "type": "equipment"
+  }, 
+  {
+    "name": "Poultry", 
+    "img": "icons/svg/item-bag.svg", 
+    "system": {
+      "slots": 1, 
+      "cost": 5, 
+      "relic": {
+        "isActive": false, 
+        "isRelic": false
+      }, 
+      "description": "<p></p>", 
+      "quantity": 1
+    }, 
+    "_id": "ck2e-items-poultry", 
+    "type": "equipment"
+  }
+]
