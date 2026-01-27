@@ -1,10 +1,13 @@
 # CHANGELOG
 
+## 0.6.1
+- Added Transport pack with vehicles and pack animals from Core Knave 2e (Mule, Riding Horse, War Horse, Cart, Carriage, Wagon, Rowboat, Fishing Boat, Sloop, Caravel, Galleon)
+
 ## 0.6.0
 - Added comprehensive compendium pack system with multiple item categories
 - Simple .db format implementation for better maintainability
 - Added Core Knave 2e item packs: melee weapons, missile weapons, armor, clothing, animals, light sources, and other items
-- Added Core Knave 2e bestiary pack with monsters and embedded attacks
+- Added Core Knave 2e bestiary pack with monsters, embedded attacks and icons
 
 ## 0.3.3
 - Update system for v12 compatibility

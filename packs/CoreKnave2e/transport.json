@@ -1,0 +1,310 @@
+[
+  {
+    "_id": "ck2e-transport-mule",
+    "name": "Mule",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/mule-donkey.svg",
+    "system": {
+      "description": "A sturdy pack animal capable of carrying heavy loads.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 30,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 50
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Mule",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/mule-donkey.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-riding-horse",
+    "name": "Riding Horse",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/riding-horse-horse-head.svg",
+    "system": {
+      "description": "A swift and reliable mount for traveling long distances.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 200,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 80
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Riding Horse",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/riding-horse-horse-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-war-horse",
+    "name": "War Horse",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/war-horse-horse-head.svg",
+    "system": {
+      "description": "A powerful and well-trained mount bred for combat.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 10000,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 80
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "War Horse",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/war-horse-horse-head.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-cart",
+    "name": "Cart",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/cart-cartwheel.svg",
+    "system": {
+      "description": "A simple two-wheeled vehicle for hauling goods.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 50,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 200
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Cart",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/cart-cartwheel.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-carriage",
+    "name": "Carriage",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/carriage-cartwheel.svg",
+    "system": {
+      "description": "An enclosed four-wheeled vehicle for passengers and cargo.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 320,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 200
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Carriage",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/carriage-cartwheel.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-wagon",
+    "name": "Wagon",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/wagon-old-wagon.svg",
+    "system": {
+      "description": "A large four-wheeled vehicle for transporting heavy loads.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 120,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 800
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Wagon",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/wagon-old-wagon.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-rowboat",
+    "name": "Rowboat",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/rowboat-wood-canoe.svg",
+    "system": {
+      "description": "A small boat propelled by oars.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 50,
+      "crew": 0,
+      "slots": {
+        "value": 0,
+        "max": 320
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Rowboat",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/rowboat-wood-canoe.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-fishing-boat",
+    "name": "Fishing Boat",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/fishing-boat-raft.svg",
+    "system": {
+      "description": "A small sailing vessel for coastal fishing. Requires 2 crew.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 500,
+      "crew": 2,
+      "slots": {
+        "value": 0,
+        "max": 2000
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Fishing Boat",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/fishing-boat-raft.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-sloop",
+    "name": "Sloop",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/sloop-sailboat.svg",
+    "system": {
+      "description": "A single-masted sailing vessel. Requires 10 crew.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 5000,
+      "crew": 10,
+      "slots": {
+        "value": 0,
+        "max": 8000
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Sloop",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/sloop-sailboat.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-caravel",
+    "name": "Caravel",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/caravel.svg",
+    "system": {
+      "description": "A multi-masted ocean-going vessel. Requires 50 crew.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 25000,
+      "crew": 50,
+      "slots": {
+        "value": 0,
+        "max": 40000
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Caravel",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/caravel.svg"
+      },
+      "actorLink": false
+    }
+  },
+  {
+    "_id": "ck2e-transport-galleon",
+    "name": "Galleon",
+    "type": "vehicle",
+    "img": "systems/elderknave2e/assets/icons/galleon-small-fishing-sailboat.svg",
+    "system": {
+      "description": "A massive warship or merchant vessel. Requires 200 crew.",
+      "ammo": {
+        "arrow": 0,
+        "bullet": 0
+      },
+      "coins": 0,
+      "cost": 125000,
+      "crew": 200,
+      "slots": {
+        "value": 0,
+        "max": 200000
+      }
+    },
+    "prototypeToken": {
+      "displayBars": 40,
+      "name": "Galleon",
+      "texture": {
+        "src": "systems/elderknave2e/assets/icons/galleon-small-fishing-sailboat.svg"
+      },
+      "actorLink": false
+    }
+  }
+]

@@ -5,7 +5,7 @@ This document outlines planned features and enhancements for the Elder Knave sys
 ## Must-Have Features
 
 ### Compendium Content
-- [ ] Vehicle and pack animal compendium pack + icons
+- [x] Vehicle and pack animal compendium pack + icons
 - [ ] Elder Knave spellbook pack
 - [ ] Elder Knave bestiary pack
 
@@ -21,6 +21,9 @@ This document outlines planned features and enhancements for the Elder Knave sys
 - [ ] Rollable tables
 - [ ] NPC pack (research if this exists in Knave)
 - [ ] Items based on Elder Knave materials
+
+### Development Tools
+- [ ] Automated release scripts
 
 ## Recently Completed
 

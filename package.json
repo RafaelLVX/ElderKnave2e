@@ -1,7 +1,6 @@
 {
   "name": "elderknave2e",
-  "version": "0.6.0",
-  "description": "Compiler scripts for the Elder Knave system",
+  "description": "Build scripts and development dependencies for Elder Knave",
   "scripts": {
     "build": "gulp build",
     "compile": "gulp css",
@@ -13,7 +12,7 @@
   "browserslist": [
     "last 3 versions"
   ],
-  "author": "John Doe",
+  "author": "Rafael Lopes Vivian <r@fael.lv>",
   "license": "MIT",
   "private": true,
   "devDependencies": {

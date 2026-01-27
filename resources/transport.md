@@ -1,0 +1,12 @@
+transport: The crew requirements listed are not included in the price.
+• Mule, 50 slots (30c)
+• Riding Horse, 80 slots (200c)
+• War Horse, 80 slots (10,000c)
+• Cart, 200 slots (50c)
+• Carriage, 200 slots (320c)
+• Wagon, 800 slots (120c)
+• Rowboat, 320 slots (50c)
+• Fishing boat, 2k slots, 2 crew (500c)
+• Sloop, 8k slots, 10 crew (5000c)
+• Caravel, 40k slots, 50 crew (25,000c)
+• Galleon, 200k slots, 200 crew (125,000c)

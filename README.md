@@ -115,6 +115,7 @@ Knave Second Edition for FoundryVTT is still in a beta stage, and is likely to h
   - [Cathelineau](https://game-icons.net/)
   - [Delapouite](https://delapouite.com/)
   - [Lorc](https://lorcblog.blogspot.com/)
+  - [Pierre Leducq](https://game-icons.net/)
   - [sbed](http://opengameart.org/content/95-game-icons)
   - [Skoll](https://game-icons.net/)
   - [Game-icons.net](https://game-icons.net/)

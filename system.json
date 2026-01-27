@@ -15,7 +15,7 @@
   "readme": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/README.md",
   "bugs": "https://github.com/RafaelLVX/ElderKnave2e/issues",
   "changelog": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/CHANGELOG.md",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "compatibility": {
     "minimum": "10",
     "verified": "12",
@@ -94,6 +94,14 @@
       "private": true
     },
     {
+      "name": "coreknave2e-transport",
+      "label": "Transport",
+      "path": "packs/CoreKnave2e/transport.db",
+      "type": "Actor",
+      "system": "elderknave2e",
+      "private": true
+    },
+    {
       "name": "coreknave2e-items-other",
       "label": "Items - Other",
       "path": "packs/CoreKnave2e/items-other.db",
@@ -115,6 +123,7 @@
       "name": "Core Knave 2e",
       "packs": [
         "coreknave2e-bestiary",
+        "coreknave2e-transport",
         "coreknave2e-items-light",
         "coreknave2e-items-melee",
         "coreknave2e-items-missile",

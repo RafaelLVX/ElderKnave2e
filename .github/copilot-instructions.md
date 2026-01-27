@@ -67,6 +67,8 @@ We have 7 separate compendium packs defined in `system.json` and we are still ad
 - The build system (`scripts/system-package.mjs`) is in Node.js/JavaScript.
 - Python 2 compatibility is maintained for generator scripts (if needed).
 - Please be concise and clear in code comments and documentation. Do not embellish unnecessarily in documentation or oversell.
+- Do not make stuff up. If unsure about rules or mechanics, ask.
+- Do not make stuff up about Foundry's "known bugs", limitations or features. If you can't back up a claim, don't make it.
 
 # Module Structure
 
