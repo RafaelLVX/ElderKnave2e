@@ -6,7 +6,7 @@ This document outlines planned features and enhancements for the Elder Knave sys
 
 ### Compendium Content
 - [x] Vehicle and pack animal compendium pack + icons
-- [ ] Elder Knave spellbook pack
+- [x] Elder Knave spellbook pack
 - [ ] Elder Knave bestiary pack
 
 ### Assets
@@ -23,7 +23,7 @@ This document outlines planned features and enhancements for the Elder Knave sys
 - [ ] Items based on Elder Knave materials
 
 ### Development Tools
-- [ ] Automated release scripts
+- [x] Automated release scripts
 
 ## Recently Completed
 

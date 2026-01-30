@@ -7,7 +7,9 @@
     "watch": "gulp",
     "gulp": "gulp",
     "stage": "node scripts/system-package.mjs",
-    "release": "node scripts/system-package.mjs --zip"
+    "release:zip": "node scripts/system-package.mjs --zip",
+    "release": "node scripts/create-release.mjs",
+    "release:draft": "node scripts/create-release.mjs --draft"
   },
   "browserslist": [
     "last 3 versions"

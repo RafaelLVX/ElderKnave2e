@@ -80,6 +80,25 @@ Examples:
 - Each spell has: tier, category, slots (1), cost (100/500/2000/5000 by tier), description.
 - Refer to `resources/elder-magic.md` for complete spell mechanics and design philosophy.
 
+# Release Automation
+
+- Automated release script: `scripts/create-release.mjs` (documentation: `docs/release-guide.md`)
+- **Commands**:
+  - `npm run release` - Full automated GitHub release (builds, tags, publishes)
+  - `npm run release:draft` - Same as above but creates draft for review
+  - `npm run release:zip` - Only builds package zip without GitHub release
+- **What it does**:
+  - Validates environment (GitHub CLI installed/authenticated, git status)
+  - Checks version in `system.json` doesn't have existing tag
+  - Requires matching CHANGELOG.md section (fails if missing)
+  - Builds package with `scripts/system-package.mjs --zip`
+  - Extracts repository from `system.json` (no need for default repo)
+  - Generates release notes from CHANGELOG.md or optional RELEASE_NOTES.md
+  - Creates GitHub release with tag `vX.X.X` and uploads `dist/system.zip`
+  - Prompts for confirmation (y/N) if uncommitted changes detected
+- **Prerequisites**: GitHub CLI (`gh`) installed and authenticated (`gh auth login`)
+- Script uses repository URL from `system.json` so it works without setting a default repo
+
 # Project general coding standards
 
 - Prefer Javascript over Python when writing new util scripts for the project. You CAN use Python for one-off scripts or if that is the only option available, but try to keep project utilities in Javascript for consistency.
