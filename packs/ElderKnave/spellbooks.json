@@ -1,0 +1,1082 @@
+[
+  {
+    "_id": "ek-spellbooks-oakflesh",
+    "name": "Oakflesh",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Skin hardens like bark. Gain d4 temporary HP for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-telekinesis",
+    "name": "Telekinesis",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Move an object (weighing up to two slots) in the air for 20'. Dual cast for 40' or four slots worth of items.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-waterwalking",
+    "name": "Waterwalking",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Walk (or run) over water for 1 minute.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-levitate",
+    "name": "Levitate",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Float in the air in any direction for 1 minute (move up to 2' per second).</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-stoneflesh",
+    "name": "Stoneflesh",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Skin hardens like stone. Gain 2d4 temporary HP for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-water-breathing",
+    "name": "Water Breathing",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Breathe underwater for one Turn (10 minutes).</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-elemental-edge",
+    "name": "Elemental Edge",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>A single weapon you can point to gets imbued in fire, cold or electricity and deals extra +2 damage for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-feather",
+    "name": "Feather",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Halve carried weight for two Turns (20 minutes).</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-ironflesh",
+    "name": "Ironflesh",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Skin tough as metal. Gain 3d4 temporary HP for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-mass-levitate",
+    "name": "Mass Levitate",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Up to six creatures float in the air at will for 1 minute (move up to 2' per second).</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-paralyze",
+    "name": "Paralyze",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One creature becomes immobilized and falls prone for 20 seconds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-time-dilation",
+    "name": "Time Dilation",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Slow time for 20 seconds. Act twice for the next two rounds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "alteration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-banish-lesser-spirit",
+    "name": "Banish Lesser Spirit",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Force lesser summoned beings to vanish (up to level 2).</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-bound-dagger",
+    "name": "Bound Dagger",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Create a spectral dagger (d6 damage) for 1 minute.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-conjure-familiar",
+    "name": "Conjure Familiar",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Summon a minor corporeal spirit for 30 seconds. Obeys simple commands.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-bound-blade",
+    "name": "Bound Blade",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Create a spectral war ax or greatsword (d8 damage) for 1 minute.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-conjure-warrior",
+    "name": "Conjure Warrior",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Summon a spectral fighter for 30 seconds. Obeys simple commands.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-soul-trap",
+    "name": "Soul Trap",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Mark a monster or animal's soul to fill a Mana Gem up to its level, if it dies within 20 seconds.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-bound-bow",
+    "name": "Bound Bow",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Summon a spectral bow (d8 damage) with full quiver for 1 minute.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-command-spirit",
+    "name": "Command Spirit",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Take control of one summoned being for 20 seconds. You can order it to vanish, if desired.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-conjure-elemental",
+    "name": "Conjure Elemental",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Summon an elemental spirit to fight alongside you for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-bound-armor",
+    "name": "Bound Armor",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Surround yourself in spectral armor (+3 Armor) for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-conjure-demon",
+    "name": "Conjure Demon",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Summon a bound infernal warrior to fight alongside you for 30 seconds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-grand-binding",
+    "name": "Grand Binding",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Merge with a summoned creature for 30 seconds, extending its duration and gaining its Armor and Damage. You can't use your own equipment and reappear when it dies or time ends.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "conjuration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-flames",
+    "name": "Flames",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Emit a short burst of fire (up to 10' away, d6 fire, ignites flammables). Dual cast for d6+2 or wider area (hit one additional target).</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-frostbite",
+    "name": "Frostbite",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Chill a target (up to 10' away, d6 cold, halves movement for one round). Dual cast for d6+2 or wider area (hit one additional target).</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-spark",
+    "name": "Spark",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Launch a bolt of electricity (up to 15' away, d6 lightning). Dual cast for d6+2 or wider area (hit one additional target).</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-firebolt",
+    "name": "Firebolt",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Hurl a flaming projectile (up to 50' away, d6+2 fire, ignites flammables). Dual cast for 2d6+2.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-ice-spike",
+    "name": "Ice Spike",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Shoot a shard of ice (up to 50' away, d6+2 cold, halves movement for one round). Dual cast for 2d6+2.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-shock-orb",
+    "name": "Shock Orb",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Release a crackling orb (up to 30' away, explodes for d6+1 lightning in 10' diameter). Dual cast for 2d6+1.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-chain-lightning",
+    "name": "Chain Lightning",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Strike one target you can point to (d6+1 lightning) and arc to another within 15' and anyone in between. Dual cast: up to three points arc.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-cone-of-cold",
+    "name": "Cone of Cold",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Blast frost in a 30' cone in front of caster (d6+1 cold, halves movement). Dual cast for 2d6+1.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-fireball",
+    "name": "Fireball",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Detonate fire (d6+1 fire, ignites flammables) in a 20' diameter area you can point to. Dual cast for 2d6+1.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-blizzard",
+    "name": "Blizzard",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Freeze a 30' diameter area you can point to (d6+2 cold, halts movement for 2 rounds). Dual cast for 2d6+2.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-inferno",
+    "name": "Inferno",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Summon rolling waves of flame centered up to 30' away from you (30' diameter, d6+2 fire, ignites flammables) for 3 rounds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-tempest",
+    "name": "Tempest",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Unleash a lightning storm in 30' diameter area you can point to (d6+4 lightning) for 3 rounds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "destruction",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-calm",
+    "name": "Calm",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One creature stops fighting for 20 seconds unless harmed.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-candlelight",
+    "name": "Candlelight",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Create a floating orb of light that follows you for 10 minutes.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-frighten",
+    "name": "Frighten",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One creature flees (or cowers in fear if cornered) for 20 seconds unless harmed.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-chameleon",
+    "name": "Chameleon",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Your outline blurs for 1 minute. Blend with surroundings while still.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-charm",
+    "name": "Charm",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One creature regards you as friendly for 1 minute. Ends if you or allies act hostile.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-dread",
+    "name": "Dread",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Up to two creatures flee (or cower in fear if cornered) for 20 seconds unless harmed.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-frenzy",
+    "name": "Frenzy",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One creature attacks the nearest being for 20 seconds.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-invisibility",
+    "name": "Invisibility",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>You become invisible for 20 seconds.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-phantasmal-image",
+    "name": "Phantasmal Image",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Create a convincing illusory figure or creature for 30 seconds. It makes no sound but can mislead or draw attacks.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-dominate",
+    "name": "Dominate",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One creature obeys your spoken commands for 20 seconds. Won't self-harm.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-mass-invisibility",
+    "name": "Mass Invisibility",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>You and one ally become invisible for 20 seconds. Dual cast: you and two allies.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-mayhem",
+    "name": "Mayhem",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>All creatures in a 20' diameter area you can point to act violently for 20 seconds, attacking the nearest being.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "illusion",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-cure-ailment",
+    "name": "Cure Ailment",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>End one poison, disease, or magical affliction.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-healing-hands",
+    "name": "Healing Hands",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Touch a creature to restore d6 HP. Dual cast: d6+3.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-sun-fire",
+    "name": "Sun Fire",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Launch a ray of radiant light up to 20'; deal d6 radiant damage to one undead creature. Dual cast for d6+3.</p>",
+      "slots": 1,
+      "cost": 100,
+      "quantity": 1,
+      "tier": "novice",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-resist-elements",
+    "name": "Resist Elements",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Ignore one elemental damage type (fire, cold, or lightning) for 1 minute.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-turn-undead",
+    "name": "Turn Undead",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Undead creatures within 20' flee or cower for 20 seconds.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-ward-of-light",
+    "name": "Ward of Light",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Create a shining barrier for 30 seconds. Grants +1 Armor and negates the next spell that targets you. Dual cast for +2 Armor.</p>",
+      "slots": 1,
+      "cost": 500,
+      "quantity": 1,
+      "tier": "apprentice",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-absorb-health",
+    "name": "Absorb Health",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Drain life from a creature within 20', dealing d4+2 damage and restoring that much HP to you. Dual cast for 2d4+2.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-fortify-attribute",
+    "name": "Fortify Attribute",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>One ally gains +2 in checks or attacks using one chosen attribute for 1 minute.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-mend-flesh",
+    "name": "Mend Flesh",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Touch a creature to restore 1 Wound. Dual cast for 2 Wounds.</p>",
+      "slots": 1,
+      "cost": 2000,
+      "quantity": 1,
+      "tier": "adept",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-circle-of-protection",
+    "name": "Circle of Protection",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>A radiant 20' aura lasts 30 seconds; undead and demons in it flee for 20 seconds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-radiant-recovery",
+    "name": "Radiant Recovery",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Instantly heal 1 Wound for all allies within 20'. Dual cast for 2 Wounds.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  },
+  {
+    "_id": "ek-spellbooks-sunburst",
+    "name": "Sunburst",
+    "type": "spellbook",
+    "img": "icons/svg/book.svg",
+    "system": {
+      "description": "<p>Flood a 20' diameter area you can point to with blinding light; undead and demons in it take 2d6+2 radiant damage. Dual cast for 3d6+4.</p>",
+      "slots": 1,
+      "cost": 5000,
+      "quantity": 1,
+      "tier": "master",
+      "category": "restoration",
+      "relic": {
+        "isRelic": false,
+        "isActive": false
+      }
+    }
+  }
+]

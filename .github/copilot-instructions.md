@@ -23,7 +23,13 @@ applyTo: "**"
 - **Important**: We tried LevelDB with @foundryvtt/foundryvtt-cli but it caused "The   does not exist" errors with embedded items. Don't go back to LevelDB for now.
 
 ## Pack Structure
-We have 7 separate compendium packs defined in `system.json` and we are still adding more. Examples:
+We have two main pack folders organized in `system.json`:
+- **CoreKnave2e/** - Core Knave 2nd Edition content (items, bestiary, transport)
+- **ElderKnave/** - Elder Knave custom content (spellbooks, future additions)
+
+Packs are organized using `packFolders` in system.json for clear UI separation in Foundry.
+
+Examples:
 - **bestiary.db** - monsters with embedded monster attacks
 - **items-melee.db** - Melee weapons
 - **items-missile.db** - Missile weapons
@@ -31,6 +37,7 @@ We have 7 separate compendium packs defined in `system.json` and we are still ad
 - **items-clothing.db** - Clothing sets
 - **items-animals.db** - Animals
 - **items-other.db** - Other items
+- **spellbooks.db** - Elder Magic spellbooks
 
 ## Source Files
 - Any and all JSON source files in folder `packs/**` are used to build compendium packs.
@@ -40,7 +47,10 @@ We have 7 separate compendium packs defined in `system.json` and we are still ad
 ## Document ID Conventions
 - **Core Knave 2nd Ed Items**: `ck2e-items-{name}` (e.g., `ck2e-items-short-sword`)
 - **Core Knave 2nd Ed Bestiary**: `ck2e-bestiary-{name}` (e.g., `ck2e-bestiary-goblin`)
-- **Elder Knave Items**: `ek-items-{name}` (e.g., `ek-items-mystic-robe`)
+- **Core Knave 2nd Ed Transport**: `ck2e-transport-{name}` (e.g., `ck2e-transport-mule`)
+- **Elder Knave Spellbooks**: `ek-spellbooks-{name}` (e.g., `ek-spellbooks-fireball`)
+- **Elder Knave Items** (future): `ek-items-{name}` (e.g., `ek-items-mystic-robe`)
+- **Elder Knave Bestiary** (future): `ek-bestiary-{name}` (e.g., `ek-bestiary-shadow-beast`)
 - IDs are deterministic, human-readable, and derived from document names.
 - Convert name to lowercase, replace spaces with hyphens, remove special chars.
 
@@ -60,6 +70,15 @@ We have 7 separate compendium packs defined in `system.json` and we are still ad
 - Generates separate category JSON files directly (no intermediate files).
 - Only run when adding/modifying items or regenerating from scratch.
 - Current JSON files are already populated and maintained.
+
+# Elder Magic System
+
+- Spellbook items use type `spellbook` with data model `Knave2eSpellbook`.
+- **Tiers**: Use string IDs ("novice", "apprentice", "adept", "master"), not numbers.
+- **Categories**: Use string IDs ("alteration", "conjuration", "destruction", "illusion", "restoration").
+- Spellbook configuration: `module/config/spellbook.mjs` defines CATEGORIES and TIERS.
+- Each spell has: tier, category, slots (1), cost (100/500/2000/5000 by tier), description.
+- Refer to `resources/elder-magic.md` for complete spell mechanics and design philosophy.
 
 # Project general coding standards
 

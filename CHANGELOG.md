@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 0.7.0
+- Added our first ever Elder Knave pack, with all 60 spellbooks from the Elder Magic supplement.
+
 ## 0.6.1
 - Added Transport pack with vehicles and pack animals from Core Knave 2e (Mule, Riding Horse, War Horse, Cart, Carriage, Wagon, Rowboat, Fishing Boat, Sloop, Caravel, Galleon)
 

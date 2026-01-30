@@ -15,7 +15,7 @@
   "readme": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/README.md",
   "bugs": "https://github.com/RafaelLVX/ElderKnave2e/issues",
   "changelog": "https://github.com/RafaelLVX/ElderKnave2e/blob/main/CHANGELOG.md",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "compatibility": {
     "minimum": "10",
     "verified": "12",
@@ -116,6 +116,14 @@
       "type": "Item",
       "system": "elderknave2e",
       "private": true
+    },
+    {
+      "name": "elderknave-spellbooks",
+      "label": "Spellbooks",
+      "path": "packs/ElderKnave/spellbooks.db",
+      "type": "Item",
+      "system": "elderknave2e",
+      "private": true
     }
   ],
   "packFolders": [
@@ -131,6 +139,12 @@
         "coreknave2e-items-clothing",
         "coreknave2e-items-animals",
         "coreknave2e-items-other"
+      ]
+    },
+    {
+      "name": "Elder Knave",
+      "packs": [
+        "elderknave-spellbooks"
       ]
     }
   ]
